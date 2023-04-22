@@ -25,6 +25,6 @@ An expanded version of the included sd_api_pictures extension that features inje
 https://github.com/GuizzyQC/sd_api_pictures_tag_injection
 
 ## bark_tts
-A simple implementation of Suno-AI`s Bark Text-To-Speech with implicit multi-language and simple sound effects
+A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
 
 https://github.com/minemo/text-generation-webui-barktts
