@@ -18,3 +18,8 @@ https://github.com/theubie/complex_memory
 Provides a cai-chat like telegram bot interface. 
 
 https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
+
+## sd_api_pictures_tag_injection
+An expanded version of the included sd_api_pictures extension that features injecting character tags or arbitrary tags upon detection of specific strings into SD side prompt. Greatly improves character self-image stability and allows dynamic usage of LORAs.
+
+https://github.com/GuizzyQC/sd_api_pictures_tag_injection
