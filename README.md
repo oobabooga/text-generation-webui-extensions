@@ -23,3 +23,8 @@ https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
 An expanded version of the included sd_api_pictures extension that features injecting character tags or arbitrary tags upon detection of specific strings into SD side prompt. Greatly improves character self-image stability and allows dynamic usage of LORAs.
 
 https://github.com/GuizzyQC/sd_api_pictures_tag_injection
+
+## bark_tts
+A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
+
+https://github.com/minemo/text-generation-webui-barktts
