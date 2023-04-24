@@ -28,3 +28,16 @@ https://github.com/GuizzyQC/sd_api_pictures_tag_injection
 A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
 
 https://github.com/minemo/text-generation-webui-barktts
+
+## code_syntax_highlight
+An extension that adds syntax highlighting to code snippets.
+
+<details>
+  <summary>Click to show preview</summary>
+  <br>
+
+  ![preview-1](https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/demo1.png)
+
+</details>
+
+https://github.com/DavG25/text-generation-webui-code_syntax_highlight
