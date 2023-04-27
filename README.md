@@ -41,3 +41,22 @@ An extension that adds syntax highlighting to code snippets.
 </details>
 
 https://github.com/DavG25/text-generation-webui-code_syntax_highlight
+
+
+## discord_bot
+Discord integration for the oobabooga's text-generation-webui (Inspired by DavG25's plugin)
+
+Currently it only sends any response from the chatbot to a discord Webhook of your choosing
+
+Simply create a Webhook in Discord following this tutorial and paste the webhook URL under the chat box that will show after the plugin is enabled.
+
+<details>
+  <summary>Click to show preview</summary>
+  <br>
+  
+  ![preview-2](https://user-images.githubusercontent.com/45816945/234896222-532ef597-3e26-48cc-8af2-7df33d471e1b.png)![image](https://user-images.githubusercontent.com/45816945/234899114-09381d3d-3deb-4f1f-8328-2567755cfe40.png)
+
+
+</details>
+
+https://github.com/ChobPT/text-generation-webui-discord_bot
