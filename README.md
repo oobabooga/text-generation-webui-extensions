@@ -60,3 +60,8 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
 </details>
 
 https://github.com/ChobPT/text-generation-webui-discord_bot
+
+## EdgeGPT
+Extension for Text Generation Webui based on EdgeGPT by acheong08, for a quick Internet access for your bot.
+
+https://github.com/GiusTex/EdgeGPT
