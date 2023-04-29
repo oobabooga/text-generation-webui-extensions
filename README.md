@@ -74,7 +74,7 @@ An expanded version of api extension.
     - You need to use multi_translate extension: https://github.com/janvarev/multi_translate
     - Set up param `'is_advanced_translation': True`, (set by default)
     - ...see the details in console
-      - Due to advanced logic script splits income prompt by lines, and cache translation results
+      - Due to advanced logic script splits income prompt by lines, and **cache translation results**
       - **Text quality feature:** when it generate English response, it cache it too (so you don't do double-translation English->UserLang->English next time) 
 
 https://github.com/janvarev/api_advanced
