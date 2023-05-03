@@ -65,3 +65,21 @@ https://github.com/ChobPT/text-generation-webui-discord_bot
 Extension for Text Generation Webui based on EdgeGPT by acheong08, for a quick Internet access for your bot.
 
 https://github.com/GiusTex/EdgeGPT
+
+## multi_translate
+An expanded version of the google_translate extension, that provide more translation options (more engines, save options to file, functionality to toggle on/off translations on the fly).
+
+https://github.com/janvarev/multi_translate
+
+## api_advanced
+
+An expanded version of api extension.
+1. Provide Kobold-like interface (the same way as "api" classic extension)
+2. **Provide advanced logic to auto-translate income prompts:**
+    - You need to use multi_translate extension: https://github.com/janvarev/multi_translate
+    - Set up param `'is_advanced_translation': True`, (set by default)
+    - ...see the details in console
+      - Due to advanced logic script splits income prompt by lines, and **cache translation results**
+      - **Text quality feature:** when it generate English response, it cache it too (so you don't do double-translation English->UserLang->English next time) 
+
+https://github.com/janvarev/api_advanced
