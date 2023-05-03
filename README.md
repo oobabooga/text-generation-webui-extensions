@@ -61,6 +61,11 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
 
 https://github.com/ChobPT/text-generation-webui-discord_bot
 
+## EdgeGPT
+Extension for Text Generation Webui based on EdgeGPT by acheong08, for a quick Internet access for your bot.
+
+https://github.com/GiusTex/EdgeGPT
+
 ## multi_translate
 An expanded version of the google_translate extension, that provide more translation options (more engines, save options to file, functionality to toggle on/off translations on the fly).
 
