@@ -86,6 +86,7 @@ https://github.com/janvarev/api_advanced
 
 
 ## webui_langchain_agent
+https://github.com/ChobPT/oobaboogas-webui-langchain_agent/
 
 oobaboogas-webui-langchain_agent
 Creates an Langchain Agent which uses the WebUI's API and Wikipedia to work and do something for you
