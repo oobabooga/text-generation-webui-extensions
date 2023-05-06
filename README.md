@@ -83,3 +83,20 @@ An expanded version of api extension.
       - **Text quality feature:** when it generate English response, it cache it too (so you don't do double-translation English->UserLang->English next time) 
 
 https://github.com/janvarev/api_advanced
+
+
+## webui_langchain_agent
+
+oobaboogas-webui-langchain_agent
+Creates an Langchain Agent which uses the WebUI's API and Wikipedia to work and do something for you
+
+Tested to be barely working, I learned python a couple of weeks ago, bear with me.
+
+Needs ´api´ and ´no_stream´ enabled.
+<details>
+  <summary>Click to show preview</summary>
+  <br>
+
+  ![preview-1](https://user-images.githubusercontent.com/45816945/236649969-0d4fbab3-15e9-4cf0-88d0-71419e77d1cb.png)
+
+</details>
