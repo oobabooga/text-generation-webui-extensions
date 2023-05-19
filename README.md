@@ -99,3 +99,23 @@ Needs ´api´ and ´no_stream´ enabled.
   ![preview-1](https://user-images.githubusercontent.com/45816945/236649969-0d4fbab3-15e9-4cf0-88d0-71419e77d1cb.png)
 
 </details>
+
+## UI Tweaks
+Adds options to keep tabs on page (sticky tabs) and to move extensions into a hidden sidebar. Reduces the need for scrolling up and down. 
+
+<details>
+  <summary>Click to show preview</summary>
+  <br>
+
+  ![preview-1](https://github.com/xanthousm/text-gen-webui-ui_tweaks/assets/70198941/c5998420-9607-43d1-865f-65ec0f449ec2)
+
+</details>
+
+#### Sidebar options:
+- Open sidebar on startup
+- Dynamic height (shrink to fit)
+- Custom width
+
+Restart interface to apply setting changes. Save settings by editing params in scipt.py or using settings.json
+
+https://github.com/xanthousm/text-gen-webui-ui_tweaks
