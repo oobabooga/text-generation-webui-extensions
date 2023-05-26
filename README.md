@@ -24,6 +24,27 @@ Provides a cai-chat like telegram bot interface.
 
 https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
 
+## oobabot
+
+Another Discord bot, with both command-line and GUI modes.  Easy setup, lots of config options, and customizable characters!
+
+- [**`oobabot`**](https://github.com/chrisrude/oobabot) -- command-line mode, uses Oobabooga's API module
+
+- [**`oobabot-plugin`**](https://github.com/chrisrude/oobabot-plugin) -- GUI mode, runs inside of Oobabooga itself
+
+<details>
+<summary>
+Oobabot Screenshots!
+</summary>
+
+| Config UI   | In Action! |
+| ----------- | ----------- |
+| ![image](https://raw.githubusercontent.com/chrisrude/oobabot-plugin/main/docs/oobabot-plugin.png) | ![image](https://raw.githubusercontent.com/chrisrude/oobabot/main/docs/zombietaytay.png)|
+
+</details>
+
+https://github.com/chrisrude/oobabot-plugin
+
 ## bark_tts
 A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
 
