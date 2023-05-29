@@ -140,3 +140,9 @@ Adds options to keep tabs on page (sticky tabs) and to move extensions into a hi
 Restart interface to apply setting changes. Save settings by editing params in scipt.py or using settings.json
 
 https://github.com/xanthousm/text-gen-webui-ui_tweaks
+
+## dynamic_context
+A simple extension that replaces {{time}} and {{date}} on the current character's context with the current time and date respectively.
+Also adds time context (and optionally date) to the last prompt to add extra context to the AI response.
+
+https://github.com/elPatrixF/dynamic_context
