@@ -146,3 +146,8 @@ A simple extension that replaces {{time}} and {{date}} on the current character'
 Also adds time context (and optionally date) to the last prompt to add extra context to the AI response.
 
 https://github.com/elPatrixF/dynamic_context
+
+## Playground
+If you frequently switch between chat mode and notebook mode, this extension is designed to make your life much easier. It provides two independent notebooks that can be accessed directly within the chat mode from the top tab. As a bonus feature, the notebooks also offer a convenient method to use instruct commands directly within the notebook text using it's own syntax.
+
+https://github.com/FartyPants/Playground
