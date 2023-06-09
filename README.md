@@ -56,13 +56,19 @@ An expanded version of the included sd_api_pictures extension that features inje
 https://github.com/GuizzyQC/sd_api_pictures_tag_injection
 
 ## code_syntax_highlight
-An extension that adds syntax highlighting to code snippets.
+<img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
+
+An extension that adds syntax highlighting to code snippets, along with a toggleable copy-to-clipboard button and a performance mode for minimal impact on CPU usage.  
+
+Supports all interface modes and both light and dark themes.
 
 <details>
-  <summary>Click to show preview</summary>
+  <summary>Click here to show preview images</summary>
   <br>
-
-  ![preview-1](https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/demo1.png)
+  
+  | <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-preview-1.png" width="100%" title="Code Syntax Highlight extension"> |
+  | :----------------------------------------: |
+  | <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-preview-2.png" width="100%" title="Code Syntax Highlight extension"> |
 
 </details>
 
