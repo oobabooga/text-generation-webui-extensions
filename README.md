@@ -152,7 +152,7 @@ If you frequently switch between chat mode and notebook mode, this extension is 
 
 https://github.com/FartyPants/Playground
 
-## FPreload
+## FPreloader
 An essential extension for extensions developers - it will reload your extensions without the need to reboot web ui
 
 https://github.com/FartyPants/FPreloader
