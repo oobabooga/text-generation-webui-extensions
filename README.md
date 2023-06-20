@@ -153,8 +153,14 @@ Also adds time context (and optionally date) to the last prompt to add extra con
 
 https://github.com/elPatrixF/dynamic_context
 
-## Playground
-If you frequently switch between chat mode and notebook mode, this extension is designed to make your life much easier. It provides two independent notebooks that can be accessed directly within the chat mode from the top tab. As a bonus feature, the notebooks also offer a convenient method to use instruct commands directly within the notebook text using it's own syntax.
+## Playground for Writers
+This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
+- Two independent Notebooks A and B that are always present, regardless of the mode
+- Inline instruct (abilty to ask question or give task from within the text itself)
+- Select and Insert - generate text in the middle of your text
+- Perma Memory, Summarization, Paraphrasing
+- Lora-Rama - shows LoRA checkpoints and ability to switch between them
+
 
 https://github.com/FartyPants/Playground
 
