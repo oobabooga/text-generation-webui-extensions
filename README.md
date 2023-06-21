@@ -56,13 +56,19 @@ An expanded version of the included sd_api_pictures extension that features inje
 https://github.com/GuizzyQC/sd_api_pictures_tag_injection
 
 ## code_syntax_highlight
-An extension that adds syntax highlighting to code snippets.
+<img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
+
+An extension that adds syntax highlighting to code snippets, along with a toggleable copy-to-clipboard button and a performance mode for minimal impact on CPU usage.  
+
+Supports all interface modes and both light and dark themes.
 
 <details>
-  <summary>Click to show preview</summary>
+  <summary>Click here to show preview images</summary>
   <br>
-
-  ![preview-1](https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/demo1.png)
+  
+  | <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-preview-1.png" width="100%" title="Code Syntax Highlight extension"> |
+  | :----------------------------------------: |
+  | <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-preview-2.png" width="100%" title="Code Syntax Highlight extension"> |
 
 </details>
 
@@ -147,8 +153,14 @@ Also adds time context (and optionally date) to the last prompt to add extra con
 
 https://github.com/elPatrixF/dynamic_context
 
-## Playground
-If you frequently switch between chat mode and notebook mode, this extension is designed to make your life much easier. It provides two independent notebooks that can be accessed directly within the chat mode from the top tab. As a bonus feature, the notebooks also offer a convenient method to use instruct commands directly within the notebook text using it's own syntax.
+## Playground for Writers
+This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
+- Two independent Notebooks A and B that are always present, regardless of the mode
+- Inline instruct (abilty to ask question or give task from within the text itself)
+- Select and Insert - generate text in the middle of your text
+- Perma Memory, Summarization, Paraphrasing
+- Lora-Rama - shows LoRA checkpoints and ability to switch between them
+
 
 https://github.com/FartyPants/Playground
 
