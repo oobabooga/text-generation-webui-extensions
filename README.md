@@ -168,3 +168,11 @@ https://github.com/FartyPants/Playground
 An essential extension for extensions developers - it will reload your extensions without the need to reboot web ui
 
 https://github.com/FartyPants/FPreloader
+
+
+
+## Guidance API
+An extension that goes with [guidance](https://github.com/microsoft/guidance/pull/221) in order to enable guidance to be used when generating text
+for schemaful data
+
+https://github.com/danikhan632/guidance_api
