@@ -159,7 +159,8 @@ This extension provides an independent advanced notebook that will be always pre
 - Inline instruct (abilty to ask question or give task from within the text itself)
 - Select and Insert - generate text in the middle of your text
 - Perma Memory, Summarization, Paraphrasing
-- Lora-Rama - shows LoRA checkpoints and ability to switch between them
+- LoRA-Rama - shows LoRA checkpoints and ability to switch between them
+- LoRA scaling (experimental) - adjust LoRA impact using a sclider
 
 
 https://github.com/FartyPants/Playground
