@@ -45,6 +45,11 @@ Oobabot Screenshots!
 
 https://github.com/chrisrude/oobabot-plugin
 
+## jsonformer
+Force the output of your model to conform to a specified JSON schema. Works even for small models that usually cannot produce well-formed JSON.
+
+https://github.com/hallucinate-games/oobabooga-jsonformer-plugin
+
 ## bark_tts
 A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
 
