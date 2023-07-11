@@ -182,3 +182,14 @@ An extension that goes with [guidance](https://github.com/microsoft/guidance/pul
 for schemaful data
 
 https://github.com/danikhan632/guidance_api
+
+## moztts
+Integration of [Mozilla-TTS](https://github.com/mozilla/TTS) . 
+Speed and quality is very dependant on the voice chosen but overall sounding better (subjectively) than silero whilst still being free.
+
+(https://github.com/sammyf/moztts)https://github.com/sammyf/moztts
+
+## Autobooga
+allows retrieving webpages and text files (txt and pdf) and to do simple searches using a json capable SEARX server ([searx-ng](https://github.com/searxng/searxng))
+
+[https://github.com/sammyf/Autobooga] (https://github.com/sammyf/Autobooga)
