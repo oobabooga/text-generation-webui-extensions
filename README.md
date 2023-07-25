@@ -189,4 +189,4 @@ https://github.com/sammyf/moztts
 ## Autobooga
 allows retrieving webpages and text files (txt and pdf) and to do simple searches using a json capable SEARX server ([searx-ng](https://github.com/searxng/searxng))
 
-[https://github.com/sammyf/Autobooga] (https://github.com/sammyf/Autobooga)
+https://github.com/sammyf/Autobooga
