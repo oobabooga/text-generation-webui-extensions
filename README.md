@@ -110,12 +110,12 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
   
   ![preview-2](https://user-images.githubusercontent.com/45816945/234896222-532ef597-3e26-48cc-8af2-7df33d471e1b.png)![image](https://user-images.githubusercontent.com/45816945/234899114-09381d3d-3deb-4f1f-8328-2567755cfe40.png)
 
-
 </details>
 
 https://github.com/ChobPT/text-generation-webui-discord_bot
 
 ## webui_langchain_agent
+
 https://github.com/ChobPT/oobaboogas-webui-langchain_agent/
 
 oobaboogas-webui-langchain_agent
@@ -167,15 +167,12 @@ This extension provides an independent advanced notebook that will be always pre
 - LoRA-Rama - shows LoRA checkpoints and ability to switch between them
 - LoRA scaling (experimental) - adjust LoRA impact using a sclider
 
-
 https://github.com/FartyPants/Playground
 
 ## FPreloader
 An essential extension for extensions developers - it will reload your extensions without the need to reboot web ui
 
 https://github.com/FartyPants/FPreloader
-
-
 
 ## Guidance API
 An extension that goes with [guidance](https://github.com/microsoft/guidance/pull/221) in order to enable guidance to be used when generating text
@@ -187,7 +184,7 @@ https://github.com/danikhan632/guidance_api
 Integration of [Mozilla-TTS](https://github.com/mozilla/TTS) . 
 Speed and quality is very dependant on the voice chosen but overall sounding better (subjectively) than silero whilst still being free.
 
-(https://github.com/sammyf/moztts)https://github.com/sammyf/moztts
+https://github.com/sammyf/moztts
 
 ## Autobooga
 allows retrieving webpages and text files (txt and pdf) and to do simple searches using a json capable SEARX server ([searx-ng](https://github.com/searxng/searxng))
