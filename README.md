@@ -190,3 +190,10 @@ A simple extension that replaces {{time}} and {{date}} on the current character'
 Also adds time context (and optionally date) to the last prompt to add extra context to the AI response.
 
 https://github.com/elPatrixF/dynamic_context
+
+## voicevox_tts
+A simple extension that can make model's output text-to-speach by voicevox.
+It also can make model's output auto translate to Japanese before it process by voicevox.
+[VOICEVOX/voicevox_engine](https://github.com/VOICEVOX/voicevox_engine#%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89) is needed.
+
+https://github.com/asadfgglie/voicevox_tts
