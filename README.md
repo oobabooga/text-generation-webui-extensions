@@ -4,6 +4,19 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## webui-autonomics
+Adjust text generation parameters dynamically to better mirror emotional tone.
+
+https://github.com/dibrale/webui-autonomics
+
+<details>
+  <summary>Click to show preview</summary>
+  <br>
+
+  ![autonomic2](https://user-images.githubusercontent.com/108030031/232086809-57398b01-1412-4955-81f0-4adf21ba48c4.png)
+
+</details>
+
 ## long_term_memory
 A sophisticated extension that creates a long term memory for bots in chat mode. 
 
