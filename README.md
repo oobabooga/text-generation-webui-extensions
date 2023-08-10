@@ -8,7 +8,7 @@ If you create your own extension, you are welcome to submit it to this list in a
 This extension features a character searcher, downloader and manager for any TavernAI
 cards.
 
-## General features
+### General features
 - Main page recent and random cards, as well as random categories upon main page launch
 - Card filtering with text search, NSFW blocking* and category filtering
 - Card downloading
