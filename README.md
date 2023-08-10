@@ -4,6 +4,36 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## Integrated TavernUI Characters
+This extension features a character searcher, downloader and manager for any TavernAI
+cards.
+
+## General features
+- Main page recent and random cards, as well as random categories upon main page launch
+- Card filtering with text search, NSFW blocking* and category filtering
+- Card downloading
+- Offline card manager
+- Search and delete downloaded cards
+
+**Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW.*
+
+GitHub: https://github.com/SkinnyDevi/webui_tavernai_charas
+
+<details>
+	<summary>Click to preview the interface</summary>
+	<br/>
+
+  Main extension page with recent and random cards
+	![MainSection](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-online.png)
+	Search online TavernAI cards
+	![CardSearcher](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-searcher.png)
+	Advanced search filtering with card categories
+	![SearcherCategories](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/searcher-categories.png)
+	Manage your offline cards
+	![offlineCardManager](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/offline-cards.png)
+ 
+</details>
+
 ## webui-autonomics
 Adjust text generation parameters dynamically to better mirror emotional tone.
 
