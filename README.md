@@ -4,6 +4,17 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## Web_Search(WIP)
+This extension enables' a language model to receive google search data according to the users' input.[Currently supports google search only]
+
+Simple way to do google searches through the webUI and the model responds with the results.
+
+One needs to type search then what you want to search for, example:
+ 
+ Type ```search the weather in Nairobi, Kenya today.```
+
+Repo: https://github.com/simbake/web_search
+
 ## Integrated TavernUI Characters
 This extension features a character searcher, downloader and manager for any TavernAI
 cards.
