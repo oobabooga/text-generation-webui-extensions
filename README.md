@@ -4,6 +4,10 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## Baidu translator
+This extension is an alternative to google translate for users who can't access to Google translate (for example Chinese users) 
+Repo: https://github.com/Touch-Night/baidu_translator_extension
+
 ## Web_Search(WIP)
 This extension enables' a language model to receive google search data according to the users' input.[Currently supports google search only]
 
