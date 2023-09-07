@@ -251,3 +251,8 @@ It also can make model's output auto translate to Japanese before it process by 
 [VOICEVOX/voicevox_engine](https://github.com/VOICEVOX/voicevox_engine#%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89) is needed.
 
 https://github.com/asadfgglie/voicevox_tts
+
+## deepl_translator
+A simple extension input and output translation by the deepl
+
+- https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate
