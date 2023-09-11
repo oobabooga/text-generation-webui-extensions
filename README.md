@@ -4,6 +4,16 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## More translators  
+This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so on.  
+Need to run `pip install --upgrade translators` first.  
+https://github.com/Touch-Night/More-translators-extension
+
+## Baidu translator
+This extension is an alternative to google translate for users who can't access to Google translate (for example Chinese users).  
+Run `pip install git+https://github.com/17097239132/baidu-translate.git` first.  
+https://github.com/Touch-Night/baidu_translator_extension
+
 ## Web_Search(WIP)
 This extension enables' a language model to receive google search data according to the users' input.[Currently supports google search only]
 
@@ -13,7 +23,7 @@ One needs to type search then what you want to search for, example:
  
  Type ```search the weather in Nairobi, Kenya today.```
 
-Repo: https://github.com/simbake/web_search
+https://github.com/simbake/web_search
 
 ## Integrated TavernUI Characters
 This extension features a character searcher, downloader and manager for any TavernAI
