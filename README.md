@@ -4,70 +4,6 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
-## More translators  
-This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so on.  
-Need to run `pip install --upgrade translators` first.  
-https://github.com/Touch-Night/More-translators-extension
-
-## Baidu translator
-This extension is an alternative to google translate for users who can't access to Google translate (for example Chinese users).  
-Run `pip install git+https://github.com/17097239132/baidu-translate.git` first.  
-https://github.com/Touch-Night/baidu_translator_extension
-
-## Web_Search(WIP)
-This extension enables' a language model to receive google search data according to the users' input.[Currently supports google search only]
-
-Simple way to do google searches through the webUI and the model responds with the results.
-
-One needs to type search then what you want to search for, example:
- 
- Type ```search the weather in Nairobi, Kenya today.```
-
-https://github.com/simbake/web_search
-
-## Integrated TavernUI Characters
-This extension features a character searcher, downloader and manager for any TavernAI
-cards.
-
-### General features
-- Main page recent and random cards, as well as random categories upon main page launch
-- Card filtering with text search, NSFW blocking* and category filtering
-- Card downloading
-- Offline card manager
-- Search and delete downloaded cards
-
-**Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW.*
-
-https://github.com/SkinnyDevi/webui_tavernai_charas
-
-<details>
-	<summary>Click to preview the interface</summary>
-	<br/>
-
-  Main extension page with recent and random cards
-	![MainSection](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-online.png)
-	Search online TavernAI cards
-	![CardSearcher](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-searcher.png)
-	Advanced search filtering with card categories
-	![SearcherCategories](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/searcher-categories.png)
-	Manage your offline cards
-	![offlineCardManager](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/offline-cards.png)
- 
-</details>
-
-## webui-autonomics
-Adjust text generation parameters dynamically to better mirror emotional tone.
-
-https://github.com/dibrale/webui-autonomics
-
-<details>
-  <summary>Click to show preview</summary>
-  <br>
-
-  ![autonomic2](https://user-images.githubusercontent.com/108030031/232086809-57398b01-1412-4955-81f0-4adf21ba48c4.png)
-
-</details>
-
 ## long_term_memory
 A sophisticated extension that creates a long term memory for bots in chat mode. 
 
@@ -101,11 +37,6 @@ Needs `api` and `no_stream` enabled.
 
 </details>
 
-## telegram_bot
-Provides a cai-chat like telegram bot interface. 
-
-https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
-
 ## Playground for Writers
 This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
 - Two independent Notebooks A and B that are always present, regardless of the mode
@@ -117,10 +48,10 @@ This extension provides an independent advanced notebook that will be always pre
 
 https://github.com/FartyPants/Playground
 
-## bark_tts
-A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
+## telegram_bot
+Provides a cai-chat like telegram bot interface. 
 
-https://github.com/minemo/text-generation-webui-barktts
+https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
 
 ## code_syntax_highlight
 <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
@@ -140,6 +71,11 @@ Supports all interface modes and both light and dark themes.
 </details>
 
 https://github.com/DavG25/text-generation-webui-code_syntax_highlight
+
+## Autobooga
+allows retrieving webpages and text files (txt and pdf) and to do simple searches using a json capable SEARX server ([searx-ng](https://github.com/searxng/searxng))
+
+https://github.com/sammyf/Autobooga
 
 ## oobabot
 
@@ -162,16 +98,46 @@ Oobabot Screenshots!
 
 https://github.com/chrisrude/oobabot-plugin
 
+## bark_tts
+A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
+
+https://github.com/minemo/text-generation-webui-barktts
+
 ## Guidance API
 An extension that goes with [guidance](https://github.com/microsoft/guidance/pull/221) in order to enable guidance to be used when generating text
 for schemaful data
 
 https://github.com/danikhan632/guidance_api
 
-## Autobooga
-allows retrieving webpages and text files (txt and pdf) and to do simple searches using a json capable SEARX server ([searx-ng](https://github.com/searxng/searxng))
+## Web_Search
+This extension enables' a language model to receive google search data according to the users' input.[Currently supports google search only]
 
-https://github.com/sammyf/Autobooga
+Simple way to do google searches through the webUI and the model responds with the results.
+
+One needs to type search then what you want to search for, example:
+ 
+ Type ```search the weather in Nairobi, Kenya today.```
+
+https://github.com/simbake/web_search
+
+## webui-autonomics
+Adjust text generation parameters dynamically to better mirror emotional tone.
+
+https://github.com/dibrale/webui-autonomics
+
+<details>
+  <summary>Click to show preview</summary>
+  <br>
+
+  ![autonomic2](https://user-images.githubusercontent.com/108030031/232086809-57398b01-1412-4955-81f0-4adf21ba48c4.png)
+
+</details>
+
+## moztts
+Integration of [Mozilla-TTS](https://github.com/mozilla/TTS) . 
+Speed and quality is very dependant on the voice chosen but overall sounding better (subjectively) than silero whilst still being free.
+
+https://github.com/sammyf/moztts
 
 ## multi_translate
 An expanded version of the google_translate extension, that provide more translation options (more engines, save options to file, functionality to toggle on/off translations on the fly).
@@ -198,34 +164,40 @@ Restart interface to apply setting changes. Save settings by editing params in s
 
 https://github.com/xanthousm/text-gen-webui-ui_tweaks
 
-## moztts
-Integration of [Mozilla-TTS](https://github.com/mozilla/TTS) . 
-Speed and quality is very dependant on the voice chosen but overall sounding better (subjectively) than silero whilst still being free.
-
-https://github.com/sammyf/moztts
-
 ## sd_api_pictures_tag_injection
 An expanded version of the included sd_api_pictures extension that features injecting character tags or arbitrary tags upon detection of specific strings into SD side prompt. Greatly improves character self-image stability and allows dynamic usage of LORAs.
 
 https://github.com/GuizzyQC/sd_api_pictures_tag_injection
 
-## api_advanced
+## Integrated TavernUI Characters
+This extension features a character searcher, downloader and manager for any TavernAI
+cards.
 
-An expanded version of api extension.
-1. Provide Kobold-like interface (the same way as "api" classic extension)
-2. **Provide advanced logic to auto-translate income prompts:**
-    - You need to use multi_translate extension: https://github.com/janvarev/multi_translate
-    - Set up param `'is_advanced_translation': True`, (set by default)
-    - ...see the details in console
-      - Due to advanced logic script splits income prompt by lines, and **cache translation results**
-      - **Text quality feature:** when it generate English response, it cache it too (so you don't do double-translation English->UserLang->English next time) 
+### General features
+- Main page recent and random cards, as well as random categories upon main page launch
+- Card filtering with text search, NSFW blocking* and category filtering
+- Card downloading
+- Offline card manager
+- Search and delete downloaded cards
 
-https://github.com/janvarev/api_advanced
+**Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW.*
 
-## FPreloader
-An essential extension for extensions developers - it will reload your extensions without the need to reboot web ui
+https://github.com/SkinnyDevi/webui_tavernai_charas
 
-https://github.com/FartyPants/FPreloader
+<details>
+	<summary>Click to preview the interface</summary>
+	<br/>
+
+  Main extension page with recent and random cards
+	![MainSection](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-online.png)
+	Search online TavernAI cards
+	![CardSearcher](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-searcher.png)
+	Advanced search filtering with card categories
+	![SearcherCategories](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/searcher-categories.png)
+	Manage your offline cards
+	![offlineCardManager](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/offline-cards.png)
+ 
+</details>
 
 ## discord_bot
 Discord integration for the oobabooga's text-generation-webui (Inspired by DavG25's plugin)
@@ -249,6 +221,24 @@ Force the output of your model to conform to a specified JSON schema. Works even
 
 https://github.com/hallucinate-games/oobabooga-jsonformer-plugin
 
+## FPreloader
+An essential extension for extensions developers - it will reload your extensions without the need to reboot web ui
+
+https://github.com/FartyPants/FPreloader
+
+## api_advanced
+
+An expanded version of api extension.
+1. Provide Kobold-like interface (the same way as "api" classic extension)
+2. **Provide advanced logic to auto-translate income prompts:**
+    - You need to use multi_translate extension: https://github.com/janvarev/multi_translate
+    - Set up param `'is_advanced_translation': True`, (set by default)
+    - ...see the details in console
+      - Due to advanced logic script splits income prompt by lines, and **cache translation results**
+      - **Text quality feature:** when it generate English response, it cache it too (so you don't do double-translation English->UserLang->English next time) 
+
+https://github.com/janvarev/api_advanced
+
 ## dynamic_context
 A simple extension that replaces {{time}} and {{date}} on the current character's context with the current time and date respectively.
 Also adds time context (and optionally date) to the last prompt to add extra context to the AI response.
@@ -261,6 +251,16 @@ It also can make model's output auto translate to Japanese before it process by 
 [VOICEVOX/voicevox_engine](https://github.com/VOICEVOX/voicevox_engine#%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89) is needed.
 
 https://github.com/asadfgglie/voicevox_tts
+
+## Baidu translator
+This extension is an alternative to google translate for users who can't access to Google translate (for example Chinese users).  
+Run `pip install git+https://github.com/17097239132/baidu-translate.git` first.  
+https://github.com/Touch-Night/baidu_translator_extension
+
+## More translators  
+This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so on.  
+Need to run `pip install --upgrade translators` first.  
+https://github.com/Touch-Night/More-translators-extension
 
 ## deepl_translator
 A simple extension input and output translation by the deepl
