@@ -38,7 +38,7 @@ cards.
 
 **Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW.*
 
-GitHub: https://github.com/SkinnyDevi/webui_tavernai_charas
+https://github.com/SkinnyDevi/webui_tavernai_charas
 
 <details>
 	<summary>Click to preview the interface</summary>
@@ -265,4 +265,4 @@ https://github.com/asadfgglie/voicevox_tts
 ## deepl_translator
 A simple extension input and output translation by the deepl
 
-- https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate
+https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate
