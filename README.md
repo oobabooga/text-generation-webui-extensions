@@ -103,6 +103,11 @@ A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-lan
 
 https://github.com/minemo/text-generation-webui-barktts
 
+## edge_tts
+A simple implentation of Microsoft's free online TTS service using the [edge_tts](https://github.com/rany2/edge-tts) python library.
+
+https://github.com/BuffMcBigHuge/text-generation-webui-edge-tts
+
 ## Guidance API
 An extension that goes with [guidance](https://github.com/microsoft/guidance/pull/221) in order to enable guidance to be used when generating text
 for schemaful data
