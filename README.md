@@ -4,6 +4,11 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## SpeakLocal
+A TTS extension that uses your host's native TTS engine for speech generation. 100% local and low resource usage. 
+
+https://github.com/ill13/SpeakLocal/
+
 ## long_term_memory
 A sophisticated extension that creates a long term memory for bots in chat mode. 
 
