@@ -5,7 +5,7 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 ## SpeakLocal
-A TTS extension that uses your host's native TTS engine for speech generation. 100% local and low resource usage. 
+A TTS extension that uses your host's native TTS engine for speech generation. 100% local, low resource usage, and no word limit. Primary use case is accessing your *text-generation-webui* instance with a mobile device while conserving bandwidth with high token responses.
 
 https://github.com/ill13/SpeakLocal/
 
