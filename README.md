@@ -4,6 +4,16 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## AutoSave
+
+An auto save extension for text generated with the oobabooga WebUI.
+
+If you've ever lost a great response or forgot to copy and save your perfect prompt, AutoSave is for you!
+
+100% local saving
+
+https://github.com/ill13/AutoSave/
+
 ## SpeakLocal
 A TTS extension that uses your host's native TTS engine for speech generation. 100% local, low resource usage, and no word limit. Primary use case is accessing your *text-generation-webui* instance with a mobile device while conserving bandwidth with high token responses.
 
