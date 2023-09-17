@@ -4,6 +4,12 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## Diffusion_TTS 
+
+Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
+
+https://github.com/SicariusSicariiStuff/Diffusion_TTS
+
 ## AutoSave
 
 An auto save extension for text generated with the oobabooga WebUI.
