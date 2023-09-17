@@ -6,7 +6,7 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 ## Diffusion_TTS 
 
-Realistic TTS, close to 11labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
+Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
 
 https://github.com/SicariusSicariiStuff/Diffusion_TTS
 
