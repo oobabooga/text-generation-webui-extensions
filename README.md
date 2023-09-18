@@ -164,6 +164,10 @@ Integration of [Mozilla-TTS](https://github.com/mozilla/TTS) .
 Speed and quality is very dependant on the voice chosen but overall sounding better (subjectively) than silero whilst still being free.
 
 https://github.com/sammyf/moztts
+## google_translate_plus
+Improved version of the built-in google_translate extension. Unlike other translator extensions, this extension translates each paragraph separately, which allows you to translate large text that causes an error in other translator extensions. It also saves all paragraphs that are usually removed by translation services.
+
+https://github.com/Vasyanator/google_translate_plus
 
 ## multi_translate
 An expanded version of the google_translate extension, that provide more translation options (more engines, save options to file, functionality to toggle on/off translations on the fly).
