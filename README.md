@@ -296,3 +296,9 @@ https://github.com/Touch-Night/More-translators-extension
 A simple extension input and output translation by the deepl
 
 https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate
+
+## Long term meemory with qdrant vector database
+A long term memory extension leveraging qdrant vector database collections dynamically created and managed per character. Uses docker for qdrant but should work with cloud as well.
+[https://github.com/jason-brian-anderson/long_term_memory_with_qdrant](https://github.com/jason-brian-anderson/long_term_memory_with_qdrant)
+
+
