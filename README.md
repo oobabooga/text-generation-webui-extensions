@@ -69,6 +69,11 @@ This extension provides an independent advanced notebook that will be always pre
 
 https://github.com/FartyPants/Playground
 
+## Twinbook
+This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
+For more trips how to use it, read the README
+https://github.com/FartyPants/Twinbook
+
 ## telegram_bot
 Provides a cai-chat like telegram bot interface. 
 
