@@ -74,6 +74,11 @@ This extension combines chat and notebook in a very clever way. It's based on my
 For more trips how to use it, read the README
 https://github.com/FartyPants/Twinbook
 
+## Virtual Lora
+State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
+If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes *essential*. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly.  It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
+https://github.com/FartyPants/VirtualLora
+
 ## telegram_bot
 Provides a cai-chat like telegram bot interface. 
 
