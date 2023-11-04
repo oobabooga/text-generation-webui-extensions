@@ -6,15 +6,14 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 ## bark_tts
-This is a fork of https://github.com/minemo/text-generation-webui-barktts
-
-Now
-
-https://github.com/RandomInternetPreson/text-generation-webui-barktts
 
 A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
 
 The owner of the orignial extension has not had the time to maintain it.  I have forked it to make it compatible with the current state of Oobabooga's textgen-webui and have improved/modified the text output that the AI reads to prevent errors with special character recognition.
+
+https://github.com/RandomInternetPreson/text-generation-webui-barktts
+
+(forked from the original and no longer maintained https://github.com/minemo/text-generation-webui-barktts)
 
 ## Diffusion_TTS 
 
