@@ -5,7 +5,7 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
-## Stable Diffusion
+## stable_diffusion
 
 Integrates image generation capabilities using Stable Diffusion.  
 Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled API.
