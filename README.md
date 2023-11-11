@@ -7,13 +7,13 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 ## Stable Diffusion
 
-Integrates image generation functionalities using Stable Diffusion.  
-Requires separate stable-diffusion-webui instance with enabled API.
+Integrates image generation capabilities using Stable Diffusion.  
+Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled API.
 
 **Features**
 - Highly customizable
 - Well documented
-- Supports face swap using SD FaceSwapLab extension
+- Supports face swapping using SD FaceSwapLab extension, no need for loras when you want consistent characters
 
 https://github.com/Trojaner/text-generation-webui-stable_diffusion
 
