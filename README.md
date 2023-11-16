@@ -186,7 +186,13 @@ Speed and quality is very dependant on the voice chosen but overall sounding bet
 
 https://github.com/sammyf/moztts
 ## google_translate_plus
-Improved version of the built-in google_translate extension. Unlike other translator extensions, this extension translates each paragraph separately, which allows you to translate large text that causes an error in other translator extensions. It also saves all paragraphs that are usually removed by translation services.
+Improved version of the built-in google_translate extension. 
+
+### Features:
+- Preserve paragraphs by replacing `\n` with `@ ` before and after translation
+- Ability to translate large texts by splitting text longer than 1500 characters into several parts before translation
+- Does not translate text fragments between `~`. For example, the text `Он сказал ~"Привет"~` will be translated as `He said "Привет"`
+
 
 https://github.com/Vasyanator/google_translate_plus
 
