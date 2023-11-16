@@ -5,6 +5,18 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## stable_diffusion
+
+Integrates image generation capabilities using Stable Diffusion.  
+Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled API.
+
+**Features**
+- Highly customizable
+- Well documented
+- Supports face swapping using SD FaceSwapLab extension, no need for loras when you want consistent characters
+
+https://github.com/Trojaner/text-generation-webui-stable_diffusion
+
 ## bark_tts
 
 A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
