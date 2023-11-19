@@ -320,16 +320,10 @@ It also can make model's output auto translate to Japanese before it process by 
 [VOICEVOX/voicevox_engine](https://github.com/VOICEVOX/voicevox_engine#%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89) is needed.
 
 https://github.com/asadfgglie/voicevox_tts
-
-## Baidu translator
-This extension is an alternative to google translate for users who can't access to Google translate (for example Chinese users).  
-Run `pip install git+https://github.com/17097239132/baidu-translate.git` first.  
-https://github.com/Touch-Night/baidu_translator_extension
-
 ## More translators  
 This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so on.  
 Need to run `pip install --upgrade translators` first.  
-https://github.com/Touch-Night/More-translators-extension
+[https://github.com/Touch-Night/more_translators](https://github.com/Touch-Night/more_translators)
 
 ## deepl_translator
 A simple extension input and output translation by the deepl
