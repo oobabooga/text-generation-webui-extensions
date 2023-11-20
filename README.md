@@ -16,6 +16,9 @@ Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled
 - Supports face swapping using SD FaceSwapLab extension, no need for loras when you want consistent characters
 
 https://github.com/Trojaner/text-generation-webui-stable_diffusion
+## XTTSv2
+A simple extension for multilingual, voice cloning TTS using XTTSv2 from [coqui-ai/TTS](https://github.com/coqui-ai/TTS).
+https://github.com/kanttouchthis/text_generation_webui_xtts
 
 ## bark_tts
 
