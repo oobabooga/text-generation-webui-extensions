@@ -17,6 +17,12 @@ Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled
 
 https://github.com/Trojaner/text-generation-webui-stable_diffusion
 
+## XTTSv2
+
+A variant of the coqui_tts extension in the main repository. Both use the XTTSv2 model, but this one has a "narrator" feature for text written \*between asterisks\*.
+
+https://github.com/kanttouchthis/text_generation_webui_xtts
+
 ## bark_tts
 
 A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
