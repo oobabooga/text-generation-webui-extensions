@@ -5,6 +5,14 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## LucidWebSearch
+
+A web search extension for Oobabooga's text-generation-webui (now with nouget OCR model support).
+
+This extension allows you and your LLM to explore and perform research on the internet together.  It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
+
+https://github.com/RandomInternetPreson/text-generation-webui-barktts
+
 ## stable_diffusion
 
 Integrates image generation capabilities using Stable Diffusion.  
