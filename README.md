@@ -11,7 +11,7 @@ A web search extension for Oobabooga's text-generation-webui (now with nouget OC
 
 This extension allows you and your LLM to explore and perform research on the internet together.  It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
 
-https://github.com/RandomInternetPreson/text-generation-webui-barktts
+https://github.com/RandomInternetPreson/LucidWebSearch
 
 ## stable_diffusion
 
