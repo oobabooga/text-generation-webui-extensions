@@ -5,6 +5,12 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## Echoproof
+
+Injects recent conversation history into the negative prompt with the goal of minimizing the LLM's tendency to fixate on a single word, phrase, or sentence structure. Provides controls for optimizing the results.
+
+https://github.com/ThereforeGames/echoproof
+
 ## LucidWebSearch
 
 A web search extension for Oobabooga's text-generation-webui (now with nouget OCR model support).
