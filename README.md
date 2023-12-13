@@ -5,6 +5,24 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## AllTalk TTS
+
+AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for Text generation webUI, however supports a variety of advanced features.
+
+- **Custom Start-up Settings:** Adjust your standard start-up settings. 
+- **Nararator:** Use different voices for main character and narration. 
+- **Low VRAM mode:** Improve generation performance if your VRAM is filled by your LLM. [Screenshot]
+- **DeepSpeed:** When DeepSpeed is installed you can get a 3-4x performance boost generating TTS.
+- **Local/Custom models:** Use any of the XTTSv2 models (API Local and XTTSv2 Local).
+- **Optional wav file maintenance:** Configurable deletion of old output wav files. [Screenshot]
+- **Documentation:** Fully documented with a built in webpage.
+- **Advanced filtering for cleaner TTS generation:** No strange characters slipping through making strange noises.
+- **Backend model access:** Change the models temperature and repetition penalty to tweak how close it stays to the original samples.
+
+https://github.com/erew123/alltalk_tts
+
+Thanks!
+
 ## Echoproof
 
 Injects recent conversation history into the negative prompt with the goal of minimizing the LLM's tendency to fixate on a single word, phrase, or sentence structure. Provides controls for optimizing the results.
