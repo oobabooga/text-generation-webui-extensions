@@ -21,8 +21,6 @@ AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for
 
 https://github.com/erew123/alltalk_tts
 
-Thanks!
-
 ## Echoproof
 
 Injects recent conversation history into the negative prompt with the goal of minimizing the LLM's tendency to fixate on a single word, phrase, or sentence structure. Provides controls for optimizing the results.
