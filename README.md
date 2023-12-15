@@ -312,8 +312,11 @@ Also adds time context (and optionally date) to the last prompt to add extra con
 https://github.com/elPatrixF/dynamic_context
 
 ## Virtual Lora
+
 State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
+
 If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes *essential*. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly.  It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
+
 https://github.com/FartyPants/VirtualLora
 
 ## api_advanced
@@ -349,11 +352,13 @@ https://github.com/RandomInternetPreson/text-generation-webui-barktts
 ## Twinbook
 This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
 For more trips how to use it, read the README
+
 https://github.com/FartyPants/Twinbook
 
 ## More translators  
 This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so on.  
-Need to run `pip install --upgrade translators` first.  
+Need to run `pip install --upgrade translators` first.
+
 https://github.com/Touch-Night/more_translators
 
 ## google_translate_plus
