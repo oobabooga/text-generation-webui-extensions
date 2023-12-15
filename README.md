@@ -370,3 +370,11 @@ https://github.com/Vasyanator/google_translate_plus
 A simple extension input and output translation by the deepl
 
 https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate
+
+## Emotivoice_TTS
+
+A simple extension that can make model's output text-to-speach by Emotivoice (Chinese-English Bilingual by NetEase).
+
+This model is super fast, usually cost only <0.2 sec for a ~20 words sentence on 3090 with ~1GB VRAM occupation.
+
+https://github.com/yhyu13/Emotivoice_TTS
