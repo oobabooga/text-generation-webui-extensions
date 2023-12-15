@@ -70,11 +70,6 @@ One needs to type search then what you want to search for, example:
 
 https://github.com/simbake/web_search
 
-## Autobooga
-allows retrieving webpages and text files (txt and pdf) and to do simple searches using a json capable SEARX server ([searx-ng](https://github.com/searxng/searxng))
-
-https://github.com/sammyf/Autobooga
-
 ## code_syntax_highlight
 <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
 
