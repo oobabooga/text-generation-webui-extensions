@@ -1,88 +1,8 @@
-
 # text-generation-webui-extensions
 
 This is a directory of extensions for https://github.com/oobabooga/text-generation-webui
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
-
-## AllTalk TTS
-
-AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for Text generation webUI, however supports a variety of advanced features.
-
-- **Custom Start-up Settings:** Adjust your standard start-up settings. 
-- **Nararator:** Use different voices for main character and narration. 
-- **Low VRAM mode:** Improve generation performance if your VRAM is filled by your LLM. [Screenshot]
-- **DeepSpeed:** When DeepSpeed is installed you can get a 3-4x performance boost generating TTS.
-- **Local/Custom models:** Use any of the XTTSv2 models (API Local and XTTSv2 Local).
-- **Optional wav file maintenance:** Configurable deletion of old output wav files. [Screenshot]
-- **Documentation:** Fully documented with a built in webpage.
-- **Advanced filtering for cleaner TTS generation:** No strange characters slipping through making strange noises.
-- **Backend model access:** Change the models temperature and repetition penalty to tweak how close it stays to the original samples.
-
-https://github.com/erew123/alltalk_tts
-
-## Echoproof
-
-Injects recent conversation history into the negative prompt with the goal of minimizing the LLM's tendency to fixate on a single word, phrase, or sentence structure. Provides controls for optimizing the results.
-
-https://github.com/ThereforeGames/echoproof
-
-## LucidWebSearch
-
-A web search extension for Oobabooga's text-generation-webui (now with nouget OCR model support).
-
-This extension allows you and your LLM to explore and perform research on the internet together.  It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
-
-https://github.com/RandomInternetPreson/LucidWebSearch
-
-## stable_diffusion
-
-Integrates image generation capabilities using Stable Diffusion.  
-Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled API.
-
-**Features**
-- Highly customizable
-- Well documented
-- Supports face swapping using SD FaceSwapLab extension, no need for loras when you want consistent characters
-
-https://github.com/Trojaner/text-generation-webui-stable_diffusion
-
-## XTTSv2
-
-A variant of the coqui_tts extension in the main repository. Both use the XTTSv2 model, but this one has a "narrator" feature for text written \*between asterisks\*.
-
-https://github.com/kanttouchthis/text_generation_webui_xtts
-
-## bark_tts
-
-A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
-
-The owner of the original extension has not had the time to maintain it.  I have forked it to make it compatible with the current state of Oobabooga's textgen-webui and have improved/modified the text output that the AI reads to prevent errors with special character recognition.
-
-https://github.com/RandomInternetPreson/text-generation-webui-barktts
-
-(forked from the original and no longer maintained https://github.com/minemo/text-generation-webui-barktts)
-
-## Diffusion_TTS 
-
-Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
-
-https://github.com/SicariusSicariiStuff/Diffusion_TTS
-
-## AutoSave
-
-An auto save extension for text generated with the oobabooga WebUI.
-
-If you've ever lost a great response or forgot to copy and save your perfect prompt, AutoSave is for you!
-
-100% local saving
-
-https://github.com/ill13/AutoSave/
-
-## SpeakLocal
-A TTS extension that uses your host's native TTS engine for speech generation. 100% local, low resource usage, and no word limit. Primary use case is accessing your *text-generation-webui* instance with a mobile device while conserving bandwidth with high token responses.
-
-https://github.com/ill13/SpeakLocal/
 
 ## long_term_memory
 A sophisticated extension that creates a long term memory for bots in chat mode. 
@@ -94,10 +14,32 @@ Extension for Text Generation Webui based on EdgeGPT by acheong08, for a quick I
 
 https://github.com/GiusTex/EdgeGPT
 
+## XTTSv2
+
+A variant of the coqui_tts extension in the main repository. Both use the XTTSv2 model, but this one has a "narrator" feature for text written \*between asterisks\*.
+
+https://github.com/kanttouchthis/text_generation_webui_xtts
+
 ## complex_memory
 A KoboldAI-like memory extension. You create memories that are injected into the context of the conversation, for prompting based on keywords. 
 
 https://github.com/theubie/complex_memory
+
+## Playground for Writers
+This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
+- Two independent Notebooks A and B that are always present, regardless of the mode
+- Inline instruct (abilty to ask question or give task from within the text itself)
+- Select and Insert - generate text in the middle of your text
+- Perma Memory, Summarization, Paraphrasing
+- LoRA-Rama - shows LoRA checkpoints and ability to switch between them
+- LoRA scaling (experimental) - adjust LoRA impact using a sclider
+
+https://github.com/FartyPants/Playground
+
+## telegram_bot
+Provides a cai-chat like telegram bot interface. 
+
+https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
 
 ## webui_langchain_agent
 
@@ -117,31 +59,21 @@ Needs `api` and `no_stream` enabled.
 
 </details>
 
-## Playground for Writers
-This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
-- Two independent Notebooks A and B that are always present, regardless of the mode
-- Inline instruct (abilty to ask question or give task from within the text itself)
-- Select and Insert - generate text in the middle of your text
-- Perma Memory, Summarization, Paraphrasing
-- LoRA-Rama - shows LoRA checkpoints and ability to switch between them
-- LoRA scaling (experimental) - adjust LoRA impact using a sclider
+## Web_Search
+This extension enables' a language model to receive google search data according to the users' input.[Currently supports google search only]
 
-https://github.com/FartyPants/Playground
+Simple way to do google searches through the webUI and the model responds with the results.
 
-## Twinbook
-This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
-For more trips how to use it, read the README
-https://github.com/FartyPants/Twinbook
+One needs to type search then what you want to search for, example:
+ 
+ Type ```search the weather in Nairobi, Kenya today.```
 
-## Virtual Lora
-State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
-If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes *essential*. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly.  It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
-https://github.com/FartyPants/VirtualLora
+https://github.com/simbake/web_search
 
-## telegram_bot
-Provides a cai-chat like telegram bot interface. 
+## Autobooga
+allows retrieving webpages and text files (txt and pdf) and to do simple searches using a json capable SEARX server ([searx-ng](https://github.com/searxng/searxng))
 
-https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
+https://github.com/sammyf/Autobooga
 
 ## code_syntax_highlight
 <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
@@ -161,11 +93,6 @@ Supports all interface modes and both light and dark themes.
 </details>
 
 https://github.com/DavG25/text-generation-webui-code_syntax_highlight
-
-## Autobooga
-allows retrieving webpages and text files (txt and pdf) and to do simple searches using a json capable SEARX server ([searx-ng](https://github.com/searxng/searxng))
-
-https://github.com/sammyf/Autobooga
 
 ## oobabot
 
@@ -193,27 +120,17 @@ A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-lan
 
 https://github.com/minemo/text-generation-webui-barktts
 
-## edge_tts
-A simple implentation of Microsoft's free online TTS service using the [edge_tts](https://github.com/rany2/edge-tts) python library. Now supports RVC!
+## Diffusion_TTS 
 
-https://github.com/BuffMcBigHuge/text-generation-webui-edge-tts
+Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
+
+https://github.com/SicariusSicariiStuff/Diffusion_TTS
 
 ## Guidance API
 An extension that goes with [guidance](https://github.com/microsoft/guidance/pull/221) in order to enable guidance to be used when generating text
 for schemaful data
 
 https://github.com/danikhan632/guidance_api
-
-## Web_Search
-This extension enables' a language model to receive google search data according to the users' input.[Currently supports google search only]
-
-Simple way to do google searches through the webUI and the model responds with the results.
-
-One needs to type search then what you want to search for, example:
- 
- Type ```search the weather in Nairobi, Kenya today.```
-
-https://github.com/simbake/web_search
 
 ## webui-autonomics
 Adjust text generation parameters dynamically to better mirror emotional tone.
@@ -228,51 +145,32 @@ https://github.com/dibrale/webui-autonomics
 
 </details>
 
-## moztts
-Integration of [Mozilla-TTS](https://github.com/mozilla/TTS) . 
-Speed and quality is very dependant on the voice chosen but overall sounding better (subjectively) than silero whilst still being free.
+## AllTalk TTS
 
-https://github.com/sammyf/moztts
-## google_translate_plus
-Improved version of the built-in google_translate extension. 
+AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for Text generation webUI, however supports a variety of advanced features.
 
-### Features:
-- Preserve paragraphs by replacing `\n` with `@ ` before and after translation
-- Ability to translate large texts by splitting text longer than 1500 characters into several parts before translation
-- Does not translate text fragments between `~`. For example, the text `Он сказал ~"Привет"~` will be translated as `He said "Привет"`
+- **Custom Start-up Settings:** Adjust your standard start-up settings. 
+- **Nararator:** Use different voices for main character and narration. 
+- **Low VRAM mode:** Improve generation performance if your VRAM is filled by your LLM. [Screenshot]
+- **DeepSpeed:** When DeepSpeed is installed you can get a 3-4x performance boost generating TTS.
+- **Local/Custom models:** Use any of the XTTSv2 models (API Local and XTTSv2 Local).
+- **Optional wav file maintenance:** Configurable deletion of old output wav files. [Screenshot]
+- **Documentation:** Fully documented with a built in webpage.
+- **Advanced filtering for cleaner TTS generation:** No strange characters slipping through making strange noises.
+- **Backend model access:** Change the models temperature and repetition penalty to tweak how close it stays to the original samples.
 
+https://github.com/erew123/alltalk_tts
 
-https://github.com/Vasyanator/google_translate_plus
+## Echoproof
+
+Injects recent conversation history into the negative prompt with the goal of minimizing the LLM's tendency to fixate on a single word, phrase, or sentence structure. Provides controls for optimizing the results.
+
+https://github.com/ThereforeGames/echoproof
 
 ## multi_translate
 An expanded version of the google_translate extension, that provide more translation options (more engines, save options to file, functionality to toggle on/off translations on the fly).
 
 https://github.com/janvarev/multi_translate
-
-## UI Tweaks
-Adds options to keep tabs on page (sticky tabs) and to move extensions into a hidden sidebar. Reduces the need for scrolling up and down. 
-
-<details>
-  <summary>Click to show preview</summary>
-  <br>
-
-  ![preview-1](https://github.com/xanthousm/text-gen-webui-ui_tweaks/assets/70198941/c5998420-9607-43d1-865f-65ec0f449ec2)
-
-</details>
-
-#### Sidebar options:
-- Open sidebar on startup
-- Dynamic height (shrink to fit)
-- Custom width
-
-Restart interface to apply setting changes. Save settings by editing params in scipt.py or using settings.json
-
-https://github.com/xanthousm/text-gen-webui-ui_tweaks
-
-## sd_api_pictures_tag_injection
-An expanded version of the included sd_api_pictures extension that features injecting character tags or arbitrary tags upon detection of specific strings into SD side prompt. Greatly improves character self-image stability and allows dynamic usage of LORAs.
-
-https://github.com/GuizzyQC/sd_api_pictures_tag_injection
 
 ## Integrated TavernUI Characters
 This extension features a character searcher, downloader and manager for any TavernAI
@@ -304,6 +202,92 @@ https://github.com/SkinnyDevi/webui_tavernai_charas
  
 </details>
 
+## Long term memory with qdrant vector database
+A long term memory extension leveraging qdrant vector database collections dynamically created and managed per character. Uses docker for qdrant but should work with cloud as well.
+
+https://github.com/jason-brian-anderson/long_term_memory_with_qdrant
+
+## LucidWebSearch
+
+A web search extension for Oobabooga's text-generation-webui (now with nouget OCR model support).
+
+This extension allows you and your LLM to explore and perform research on the internet together.  It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
+
+https://github.com/RandomInternetPreson/LucidWebSearch
+
+## UI Tweaks
+Adds options to keep tabs on page (sticky tabs) and to move extensions into a hidden sidebar. Reduces the need for scrolling up and down. 
+
+<details>
+  <summary>Click to show preview</summary>
+  <br>
+
+  ![preview-1](https://github.com/xanthousm/text-gen-webui-ui_tweaks/assets/70198941/c5998420-9607-43d1-865f-65ec0f449ec2)
+
+</details>
+
+#### Sidebar options:
+- Open sidebar on startup
+- Dynamic height (shrink to fit)
+- Custom width
+
+Restart interface to apply setting changes. Save settings by editing params in scipt.py or using settings.json
+
+https://github.com/xanthousm/text-gen-webui-ui_tweaks
+
+## stable_diffusion
+
+Integrates image generation capabilities using Stable Diffusion.  
+Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled API.
+
+**Features**
+- Highly customizable
+- Well documented
+- Supports face swapping using SD FaceSwapLab extension, no need for loras when you want consistent characters
+
+https://github.com/Trojaner/text-generation-webui-stable_diffusion
+
+## edge_tts
+A simple implentation of Microsoft's free online TTS service using the [edge_tts](https://github.com/rany2/edge-tts) python library. Now supports RVC!
+
+https://github.com/BuffMcBigHuge/text-generation-webui-edge-tts
+
+## jsonformer
+Force the output of your model to conform to a specified JSON schema. Works even for small models that usually cannot produce well-formed JSON.
+
+https://github.com/hallucinate-games/oobabooga-jsonformer-plugin
+
+## sd_api_pictures_tag_injection
+An expanded version of the included sd_api_pictures extension that features injecting character tags or arbitrary tags upon detection of specific strings into SD side prompt. Greatly improves character self-image stability and allows dynamic usage of LORAs.
+
+https://github.com/GuizzyQC/sd_api_pictures_tag_injection
+
+## SpeakLocal
+A TTS extension that uses your host's native TTS engine for speech generation. 100% local, low resource usage, and no word limit. Primary use case is accessing your *text-generation-webui* instance with a mobile device while conserving bandwidth with high token responses.
+
+https://github.com/ill13/SpeakLocal/
+
+## moztts
+Integration of [Mozilla-TTS](https://github.com/mozilla/TTS) . 
+Speed and quality is very dependant on the voice chosen but overall sounding better (subjectively) than silero whilst still being free.
+
+https://github.com/sammyf/moztts
+
+## AutoSave
+
+An auto save extension for text generated with the oobabooga WebUI.
+
+If you've ever lost a great response or forgot to copy and save your perfect prompt, AutoSave is for you!
+
+100% local saving
+
+https://github.com/ill13/AutoSave/
+
+## FPreloader
+An essential extension for extensions developers - it will reload your extensions without the need to reboot web ui
+
+https://github.com/FartyPants/FPreloader
+
 ## discord_bot
 Discord integration for the oobabooga's text-generation-webui (Inspired by DavG25's plugin)
 
@@ -321,15 +305,16 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
 
 https://github.com/ChobPT/text-generation-webui-discord_bot
 
-## jsonformer
-Force the output of your model to conform to a specified JSON schema. Works even for small models that usually cannot produce well-formed JSON.
+## dynamic_context
+A simple extension that replaces {{time}} and {{date}} on the current character's context with the current time and date respectively.
+Also adds time context (and optionally date) to the last prompt to add extra context to the AI response.
 
-https://github.com/hallucinate-games/oobabooga-jsonformer-plugin
+https://github.com/elPatrixF/dynamic_context
 
-## FPreloader
-An essential extension for extensions developers - it will reload your extensions without the need to reboot web ui
-
-https://github.com/FartyPants/FPreloader
+## Virtual Lora
+State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
+If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes *essential*. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly.  It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
+https://github.com/FartyPants/VirtualLora
 
 ## api_advanced
 
@@ -344,30 +329,44 @@ An expanded version of api extension.
 
 https://github.com/janvarev/api_advanced
 
-## dynamic_context
-A simple extension that replaces {{time}} and {{date}} on the current character's context with the current time and date respectively.
-Also adds time context (and optionally date) to the last prompt to add extra context to the AI response.
-
-https://github.com/elPatrixF/dynamic_context
-
 ## voicevox_tts
 A simple extension that can make model's output text-to-speach by voicevox.
 It also can make model's output auto translate to Japanese before it process by voicevox.
 [VOICEVOX/voicevox_engine](https://github.com/VOICEVOX/voicevox_engine#%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89) is needed.
 
 https://github.com/asadfgglie/voicevox_tts
+
+## bark_tts
+
+A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
+
+The owner of the original extension has not had the time to maintain it.  I have forked it to make it compatible with the current state of Oobabooga's textgen-webui and have improved/modified the text output that the AI reads to prevent errors with special character recognition.
+
+https://github.com/RandomInternetPreson/text-generation-webui-barktts
+
+(forked from the original and no longer maintained https://github.com/minemo/text-generation-webui-barktts)
+
+## Twinbook
+This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
+For more trips how to use it, read the README
+https://github.com/FartyPants/Twinbook
+
 ## More translators  
 This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so on.  
 Need to run `pip install --upgrade translators` first.  
-[https://github.com/Touch-Night/more_translators](https://github.com/Touch-Night/more_translators)
+https://github.com/Touch-Night/more_translators
+
+## google_translate_plus
+Improved version of the built-in google_translate extension. 
+
+### Features:
+- Preserve paragraphs by replacing `\n` with `@ ` before and after translation
+- Ability to translate large texts by splitting text longer than 1500 characters into several parts before translation
+- Does not translate text fragments between `~`. For example, the text `Он сказал ~"Привет"~` will be translated as `He said "Привет"`
+
+https://github.com/Vasyanator/google_translate_plus
 
 ## deepl_translator
 A simple extension input and output translation by the deepl
 
 https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate
-
-## Long term memory with qdrant vector database
-A long term memory extension leveraging qdrant vector database collections dynamically created and managed per character. Uses docker for qdrant but should work with cloud as well.
-[https://github.com/jason-brian-anderson/long_term_memory_with_qdrant](https://github.com/jason-brian-anderson/long_term_memory_with_qdrant)
-
-
