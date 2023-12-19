@@ -197,6 +197,34 @@ https://github.com/SkinnyDevi/webui_tavernai_charas
  
 </details>
 
+## Chatbot Clinic
+
+An extension designed to accelerate development of chatbot characters.
+You can configure multiple versions of the same character, each
+with its own context and generation parameters. Then you can chat with
+all of them simultaneously, and vote on which replies you like best.
+The results are displayed in a detailed statistics view.
+
+https://github.com/p-e-w/chatbot_clinic
+
+<details>
+<summary>Click to preview the interface</summary>
+<br/>
+
+### Configure as many chatbots as you like
+
+![Step 1](https://github.com/p-e-w/chatbot_clinic/assets/2702526/cd6a0495-44ac-4eec-924b-622476b9fee7)
+
+### Chat with all of them simultaneously
+
+![Step 2](https://github.com/p-e-w/chatbot_clinic/assets/2702526/1a3e85a4-d563-4a01-a5b7-1f8e52ef4218)
+
+### See which one you voted for the most
+
+![Step 3](https://github.com/p-e-w/chatbot_clinic/assets/2702526/ff66b718-7c3e-4fad-a11a-bd19865da782)
+
+</details>
+
 ## Long term memory with qdrant vector database
 A long term memory extension leveraging qdrant vector database collections dynamically created and managed per character. Uses docker for qdrant but should work with cloud as well.
 
