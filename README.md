@@ -406,3 +406,10 @@ A simple extension that can make model's output text-to-speach by Emotivoice (Ch
 This model is super fast, usually cost only <0.2 sec for a ~20 words sentence on 3090 with ~1GB VRAM occupation.
 
 https://github.com/yhyu13/Emotivoice_TTS
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search. 
+
+https://github.com/mamei16/LLM_Web_search
