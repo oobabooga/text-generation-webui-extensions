@@ -144,15 +144,17 @@ https://github.com/dibrale/webui-autonomics
 
 AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for Text generation webUI, however supports a variety of advanced features.
 
-- **Custom Start-up Settings:** Adjust your standard start-up settings. 
-- **Nararator:** Use different voices for main character and narration. 
-- **Low VRAM mode:** Improve generation performance if your VRAM is filled by your LLM. [Screenshot]
-- **DeepSpeed:** When DeepSpeed is installed you can get a 3-4x performance boost generating TTS.
+- **Custom Start-up Settings:** Adjust your default start-up settings. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
+- **Narrarator:** Use different voices for main character and narration. [Example Narration](https://vocaroo.com/18nrv7FR6wuA)
+- **Low VRAM mode:** Great for people with small GPU memory or if your VRAM is filled by your LLM. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
+- **DeepSpeed:** A 3-4x performance boost generating TTS. [DeepSpeed Windows/Linux Instructions](https://github.com/erew123/alltalk_tts?tab=readme-ov-file#deepspeed-installation-options) [Screenshot](https://github.com/erew123/alltalk_tts/assets/35898566/548619c8-5f1b-47d0-a73d-54d2fee3f3db)
 - **Local/Custom models:** Use any of the XTTSv2 models (API Local and XTTSv2 Local).
-- **Optional wav file maintenance:** Configurable deletion of old output wav files. [Screenshot]
-- **Documentation:** Fully documented with a built in webpage.
-- **Advanced filtering for cleaner TTS generation:** No strange characters slipping through making strange noises.
-- **Backend model access:** Change the models temperature and repetition penalty to tweak how close it stays to the original samples.
+- **Optional wav file maintenance:** Configurable deletion of old output wav files. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
+- **Finetuning** Train the model specifically on a voice of your choosing for better reproduction.
+- **Documentation:** Fully documented with a built in webpage. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
+- **Console output** Clear command line output for any warnings or issues.
+- **API Suite and 3rd Party support via JSON calls** Can be used with 3rd party applications via JSON calls.
+- **Can be run as a standalone app** Not just inside of text-generation-webui.
 
 https://github.com/erew123/alltalk_tts
 
