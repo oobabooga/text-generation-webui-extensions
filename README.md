@@ -415,3 +415,10 @@ Give your local LLM the ability to search the web by outputting a user-defined c
 when to use the command and what to search. 
 
 https://github.com/mamei16/LLM_Web_search
+
+## Ooba_Dieroller
+
+A super simple extension that reads dice notation (eg. "2d6") from input text, and rolls a random result accordingly, feeding that into the prompt.
+Features support for modifiers (eg. "2d6+4") and advantage/disadvantage.
+
+https://github.com/TheInvisibleMage/ooba_dieroller
