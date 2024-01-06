@@ -422,3 +422,10 @@ A super simple extension that reads dice notation (eg. "2d6") from input text, a
 Features support for modifiers (eg. "2d6+4") and advantage/disadvantage.
 
 https://github.com/TheInvisibleMage/ooba_dieroller
+
+## CodeRunner
+
+Make a code execution environment available to your LLM.
+This extension uses thebe and a jupyter server to run code on.
+
+https://github.com/xr4dsh/CodeRunner
