@@ -429,3 +429,9 @@ Make a code execution environment available to your LLM.
 This extension uses thebe and a jupyter server to run code on.
 
 https://github.com/xr4dsh/CodeRunner
+
+## piper_tts
+
+An extension for using [Piper](https://github.com/rhasspy/piper) text-to-speech (TTS) model for fast voice generation. The main objective is to provide a user-friendly experience for text generation with audio. This TTS system allows multiple languages, with quality-voices and fast synthesis (much faster than real-time).
+
+https://github.com/tijo95/piper_tts
