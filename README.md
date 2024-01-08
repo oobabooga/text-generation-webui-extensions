@@ -435,3 +435,9 @@ https://github.com/xr4dsh/CodeRunner
 An extension for using [Piper](https://github.com/rhasspy/piper) text-to-speech (TTS) model for fast voice generation. The main objective is to provide a user-friendly experience for text generation with audio. This TTS system allows multiple languages, with quality-voices and fast synthesis (much faster than real-time).
 
 https://github.com/tijo95/piper_tts
+
+## LLM_Buttplug
+
+LLM Control Sex Toy by function calling.
+
+https://github.com/PsychoSmiley/LLM_Buttplug
