@@ -401,6 +401,13 @@ A simple extension input and output translation by the deepl
 
 https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate
 
+## LibreTranslate
+
+Offline translate using the LibreTranslate local server. 
+
+https://github.com/brucepro/LibreTranslate-extension-for-text-generation-webui
+
+
 ## Emotivoice_TTS
 
 A simple extension that can make model's output text-to-speach by Emotivoice (Chinese-English Bilingual by NetEase).
