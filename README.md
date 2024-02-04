@@ -443,10 +443,15 @@ An extension for using [Piper](https://github.com/rhasspy/piper) text-to-speech 
 
 https://github.com/tijo95/piper_tts
 
-
 ## web_rag
 
 Web RAG -- Retrieval-Augmented Generation from Web content. Retrieves web data using the Links browser in command-line mode (must be installed on your machine). For Manual retrieval, specify the full URL. For Auto-RAG, the prompt is converted to a query and embedded in a URL (set up in UI).
 
-
 https://github.com/Anglebrackets/web_rag
+
+## Session_Manager
+
+UI for saving/loading data and parameters between sessions, periodic autosaving
+
+https://github.com/bekkayya/session_manager/
+
