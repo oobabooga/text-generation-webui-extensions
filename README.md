@@ -9,6 +9,13 @@ A sophisticated extension that creates a long term memory for bots in chat mode.
 
 https://github.com/wawawario2/long_term_memory
 
+## Memoir+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
+
+https://github.com/brucepro/Memoir
+
+
+
 ## EdgeGPT
 Extension for Text Generation Webui based on EdgeGPT by acheong08, for a quick Internet access for your bot.
 
