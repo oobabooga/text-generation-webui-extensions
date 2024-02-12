@@ -14,8 +14,6 @@ Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long ter
 
 https://github.com/brucepro/Memoir
 
-
-
 ## EdgeGPT
 Extension for Text Generation Webui based on EdgeGPT by acheong08, for a quick Internet access for your bot.
 
@@ -413,7 +411,6 @@ https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_
 Offline translate using the LibreTranslate local server. 
 
 https://github.com/brucepro/LibreTranslate-extension-for-text-generation-webui
-
 
 ## Emotivoice_TTS
 
