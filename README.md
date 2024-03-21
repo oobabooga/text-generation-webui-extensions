@@ -458,3 +458,8 @@ https://github.com/Vasyanator/google_translate_plus
 A simple extension input and output translation by the deepl
 
 https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate
+
+## llm_steer-oobabooga
+Steer LLM outputs towards a certain topic/subject and enhance response capabilities using activation engineering by adding steering vectors, now in oobabooga text generation webui! 
+
+https://github.com/Hellisotherpeople/llm_steer-oobabooga/tree/main
