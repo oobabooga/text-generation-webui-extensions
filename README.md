@@ -463,3 +463,8 @@ https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_
 Steer LLM outputs towards a certain topic/subject and enhance response capabilities using activation engineering by adding steering vectors, now in oobabooga text generation webui! 
 
 https://github.com/Hellisotherpeople/llm_steer-oobabooga/tree/main
+
+## Model Ducking
+Model Ducking allows the currently loaded model to automatically unload itself immediately after a prompt is processed, thereby freeing up VRAM for use in other programs. It automatically reloads the last model upon sending another prompt.
+
+https://github.com/BoredBrownBear/text-generation-webui-model_ducking
