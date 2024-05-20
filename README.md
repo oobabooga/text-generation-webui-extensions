@@ -73,8 +73,6 @@ https://github.com/mamei16/LLM_Web_search
 
 ## webui_langchain_agent
 
-https://github.com/ChobPT/oobaboogas-webui-langchain_agent/
-
 oobaboogas-webui-langchain_agent
 Creates an Langchain Agent which uses the WebUI's API and Wikipedia to work and do something for you
 
@@ -88,6 +86,8 @@ Needs `api` and `no_stream` enabled.
   ![preview-1](https://user-images.githubusercontent.com/45816945/236649969-0d4fbab3-15e9-4cf0-88d0-71419e77d1cb.png)
 
 </details>
+
+https://github.com/ChobPT/oobaboogas-webui-langchain_agent/
 
 ## Web_Search
 This extension enables' a language model to receive google search data according to the users' input.[Currently supports google search only]
@@ -135,8 +135,6 @@ with its own context and generation parameters. Then you can chat with
 all of them simultaneously, and vote on which replies you like best.
 The results are displayed in a detailed statistics view.
 
-https://github.com/p-e-w/chatbot_clinic
-
 <details>
 <summary>Click to preview the interface</summary>
 <br/>
@@ -154,6 +152,8 @@ https://github.com/p-e-w/chatbot_clinic
 ![Step 3](https://github.com/p-e-w/chatbot_clinic/assets/2702526/ff66b718-7c3e-4fad-a11a-bd19865da782)
 
 </details>
+
+https://github.com/p-e-w/chatbot_clinic
 
 ## stable_diffusion
 
@@ -207,8 +207,6 @@ cards.
 
 **Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW.*
 
-https://github.com/SkinnyDevi/webui_tavernai_charas
-
 <details>
 	<summary>Click to preview the interface</summary>
 	<br/>
@@ -224,6 +222,8 @@ https://github.com/SkinnyDevi/webui_tavernai_charas
  
 </details>
 
+https://github.com/SkinnyDevi/webui_tavernai_charas
+
 ## Long term memory with qdrant vector database
 A long term memory extension leveraging qdrant vector database collections dynamically created and managed per character. Uses docker for qdrant but should work with cloud as well.
 
@@ -237,8 +237,6 @@ https://github.com/minemo/text-generation-webui-barktts
 ## webui-autonomics
 Adjust text generation parameters dynamically to better mirror emotional tone.
 
-https://github.com/dibrale/webui-autonomics
-
 <details>
   <summary>Click to show preview</summary>
   <br>
@@ -246,6 +244,8 @@ https://github.com/dibrale/webui-autonomics
   ![autonomic2](https://user-images.githubusercontent.com/108030031/232086809-57398b01-1412-4955-81f0-4adf21ba48c4.png)
 
 </details>
+
+https://github.com/dibrale/webui-autonomics
 
 ## Guidance API
 An extension that goes with [guidance](https://github.com/microsoft/guidance/pull/221) in order to enable guidance to be used when generating text
@@ -394,9 +394,9 @@ A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-lan
 
 The owner of the original extension has not had the time to maintain it.  I have forked it to make it compatible with the current state of Oobabooga's textgen-webui and have improved/modified the text output that the AI reads to prevent errors with special character recognition.
 
-https://github.com/RandomInternetPreson/text-generation-webui-barktts
-
 (forked from the original and no longer maintained https://github.com/minemo/text-generation-webui-barktts)
+
+https://github.com/RandomInternetPreson/text-generation-webui-barktts
 
 ## More translators  
 This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so on.  
