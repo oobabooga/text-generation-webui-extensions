@@ -5,6 +5,14 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search. 
+
+https://github.com/mamei16/LLM_Web_search
+
 ## stable_diffusion
 
 Integrates image generation capabilities using Stable Diffusion.  
@@ -16,13 +24,6 @@ Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled
 - Supports face swapping using SD FaceSwapLab extension, no need for loras when you want consistent characters
 
 https://github.com/Trojaner/text-generation-webui-stable_diffusion
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search. 
-
-https://github.com/mamei16/LLM_Web_search
 
 ## google_translate_plus
 Improved version of the built-in google_translate extension. 
@@ -469,3 +470,4 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
 </details>
 
 https://github.com/ChobPT/text-generation-webui-discord_bot
+
