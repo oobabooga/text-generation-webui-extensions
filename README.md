@@ -5,13 +5,17 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
-
 ## LLM_Web_search
 
 Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
 when to use the command and what to search. 
 
 https://github.com/mamei16/LLM_Web_search
+
+## Memoir+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
+
+https://github.com/brucepro/Memoir
 
 ## stable_diffusion
 
@@ -52,11 +56,6 @@ AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for
 - **Can be run as a standalone app** Not just inside of text-generation-webui.
 
 https://github.com/erew123/alltalk_tts
-
-## Memoir+
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
-
-https://github.com/brucepro/Memoir
 
 ## code_syntax_highlight
 <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
