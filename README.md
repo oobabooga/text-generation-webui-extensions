@@ -4,6 +4,11 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## Lucid_Vision
+
+This extension enhances the capabilities of textgen-webui by integrating advanced vision models, allowing users to have contextualized conversations about images with their favorite language models; and allowing direct communication with vision models.
+
+https://github.com/RandomInternetPreson/Lucid_Vision
 
 ## LLM_Web_search
 
