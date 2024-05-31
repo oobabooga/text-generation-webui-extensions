@@ -4,6 +4,7 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+
 ## Lucid_Vision
 
 This extension enhances the capabilities of textgen-webui by integrating advanced vision models, allowing users to have contextualized conversations about images with their favorite language models; and allowing direct communication with vision models.
@@ -16,6 +17,24 @@ Give your local LLM the ability to search the web by outputting a user-defined c
 when to use the command and what to search. 
 
 https://github.com/mamei16/LLM_Web_search
+
+## AllTalk TTS
+
+AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for Text generation webUI, however supports a variety of advanced features.
+
+- **Custom Start-up Settings:** Adjust your default start-up settings. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
+- **Narrarator:** Use different voices for main character and narration. [Example Narration](https://vocaroo.com/18nrv7FR6wuA)
+- **Low VRAM mode:** Great for people with small GPU memory or if your VRAM is filled by your LLM. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
+- **DeepSpeed:** A 3-4x performance boost generating TTS. [DeepSpeed Windows/Linux Instructions](https://github.com/erew123/alltalk_tts?tab=readme-ov-file#deepspeed-installation-options) [Screenshot](https://github.com/erew123/alltalk_tts/assets/35898566/548619c8-5f1b-47d0-a73d-54d2fee3f3db)
+- **Local/Custom models:** Use any of the XTTSv2 models (API Local and XTTSv2 Local).
+- **Optional wav file maintenance:** Configurable deletion of old output wav files. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
+- **Finetuning** Train the model specifically on a voice of your choosing for better reproduction.
+- **Documentation:** Fully documented with a built in webpage. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
+- **Console output** Clear command line output for any warnings or issues.
+- **API Suite and 3rd Party support via JSON calls** Can be used with 3rd party applications via JSON calls.
+- **Can be run as a standalone app** Not just inside of text-generation-webui.
+
+https://github.com/erew123/alltalk_tts
 
 ## Memoir+
 Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
@@ -43,24 +62,6 @@ Improved version of the built-in google_translate extension.
 - Does not translate text fragments between `~`. For example, the text `Он сказал ~"Привет"~` will be translated as `He said "Привет"`
 
 https://github.com/Vasyanator/google_translate_plus
-
-## AllTalk TTS
-
-AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for Text generation webUI, however supports a variety of advanced features.
-
-- **Custom Start-up Settings:** Adjust your default start-up settings. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
-- **Narrarator:** Use different voices for main character and narration. [Example Narration](https://vocaroo.com/18nrv7FR6wuA)
-- **Low VRAM mode:** Great for people with small GPU memory or if your VRAM is filled by your LLM. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
-- **DeepSpeed:** A 3-4x performance boost generating TTS. [DeepSpeed Windows/Linux Instructions](https://github.com/erew123/alltalk_tts?tab=readme-ov-file#deepspeed-installation-options) [Screenshot](https://github.com/erew123/alltalk_tts/assets/35898566/548619c8-5f1b-47d0-a73d-54d2fee3f3db)
-- **Local/Custom models:** Use any of the XTTSv2 models (API Local and XTTSv2 Local).
-- **Optional wav file maintenance:** Configurable deletion of old output wav files. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
-- **Finetuning** Train the model specifically on a voice of your choosing for better reproduction.
-- **Documentation:** Fully documented with a built in webpage. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
-- **Console output** Clear command line output for any warnings or issues.
-- **API Suite and 3rd Party support via JSON calls** Can be used with 3rd party applications via JSON calls.
-- **Can be run as a standalone app** Not just inside of text-generation-webui.
-
-https://github.com/erew123/alltalk_tts
 
 ## code_syntax_highlight
 <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
