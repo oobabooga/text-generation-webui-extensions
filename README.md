@@ -5,18 +5,11 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
-## Lucid_Vision
 
-This extension enhances the capabilities of textgen-webui by integrating advanced vision models, allowing users to have contextualized conversations about images with their favorite language models; and allowing direct communication with vision models.
+## Memoir+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
 
-https://github.com/RandomInternetPreson/Lucid_Vision
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search. 
-
-https://github.com/mamei16/LLM_Web_search
+https://github.com/brucepro/Memoir
 
 ## AllTalk TTS
 
@@ -36,10 +29,78 @@ AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for
 
 https://github.com/erew123/alltalk_tts
 
-## Memoir+
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
+## LLM_Web_search
 
-https://github.com/brucepro/Memoir
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search. 
+
+https://github.com/mamei16/LLM_Web_search
+
+## Integrated TavernUI Characters
+This extension features a character searcher, downloader and manager for any TavernAI
+cards.
+
+### General features
+- Main page recent and random cards, as well as random categories upon main page launch
+- Card filtering with text search, NSFW blocking* and category filtering
+- Card downloading
+- Offline card manager
+- Search and delete downloaded cards
+
+**Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW.*
+
+<details>
+	<summary>Click to preview the interface</summary>
+	<br/>
+
+  Main extension page with recent and random cards
+	![MainSection](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-online.png)
+	Search online TavernAI cards
+	![CardSearcher](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-searcher.png)
+	Advanced search filtering with card categories
+	![SearcherCategories](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/searcher-categories.png)
+	Manage your offline cards
+	![offlineCardManager](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/offline-cards.png)
+ 
+</details>
+
+https://github.com/SkinnyDevi/webui_tavernai_charas
+
+## Lucid_Vision
+
+This extension enhances the capabilities of textgen-webui by integrating advanced vision models, allowing users to have contextualized conversations about images with their favorite language models; and allowing direct communication with vision models.
+
+https://github.com/RandomInternetPreson/Lucid_Vision
+
+## code_syntax_highlight
+<img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
+
+An extension that adds syntax highlighting to code snippets, along with a toggleable copy-to-clipboard button and a performance mode for minimal impact on CPU usage.  
+
+Supports all interface modes and both light and dark themes.
+
+<details>
+  <summary>Click here to show preview images</summary>
+  <br>
+  
+  | <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-preview-1.png" width="100%" title="Code Syntax Highlight extension"> |
+  | :----------------------------------------: |
+  | <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-preview-2.png" width="100%" title="Code Syntax Highlight extension"> |
+
+</details>
+
+https://github.com/DavG25/text-generation-webui-code_syntax_highlight
+
+## telegram_bot
+Provides a cai-chat like telegram bot interface. 
+
+https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
+
+## web_rag
+
+Web RAG -- Retrieval-Augmented Generation from Web content. Retrieves web data using the Links browser in command-line mode (must be installed on your machine). For Manual retrieval, specify the full URL. For Auto-RAG, the prompt is converted to a query and embedded in a URL (set up in UI).
+
+https://github.com/Anglebrackets/web_rag
 
 ## stable_diffusion
 
@@ -62,25 +123,6 @@ Improved version of the built-in google_translate extension.
 - Does not translate text fragments between `~`. For example, the text `Он сказал ~"Привет"~` will be translated as `He said "Привет"`
 
 https://github.com/Vasyanator/google_translate_plus
-
-## code_syntax_highlight
-<img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
-
-An extension that adds syntax highlighting to code snippets, along with a toggleable copy-to-clipboard button and a performance mode for minimal impact on CPU usage.  
-
-Supports all interface modes and both light and dark themes.
-
-<details>
-  <summary>Click here to show preview images</summary>
-  <br>
-  
-  | <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-preview-1.png" width="100%" title="Code Syntax Highlight extension"> |
-  | :----------------------------------------: |
-  | <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-preview-2.png" width="100%" title="Code Syntax Highlight extension"> |
-
-</details>
-
-https://github.com/DavG25/text-generation-webui-code_syntax_highlight
 
 ## SpeakLocal
 A TTS extension that uses your host's native TTS engine for speech generation. 100% local, low resource usage, and no word limit. Primary use case is accessing your *text-generation-webui* instance with a mobile device while conserving bandwidth with high token responses.
@@ -142,45 +184,10 @@ Need to run `pip install --upgrade translators` first.
 
 https://github.com/Touch-Night/more_translators
 
-## Integrated TavernUI Characters
-This extension features a character searcher, downloader and manager for any TavernAI
-cards.
-
-### General features
-- Main page recent and random cards, as well as random categories upon main page launch
-- Card filtering with text search, NSFW blocking* and category filtering
-- Card downloading
-- Offline card manager
-- Search and delete downloaded cards
-
-**Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW.*
-
-<details>
-	<summary>Click to preview the interface</summary>
-	<br/>
-
-  Main extension page with recent and random cards
-	![MainSection](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-online.png)
-	Search online TavernAI cards
-	![CardSearcher](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-searcher.png)
-	Advanced search filtering with card categories
-	![SearcherCategories](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/searcher-categories.png)
-	Manage your offline cards
-	![offlineCardManager](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/offline-cards.png)
- 
-</details>
-
-https://github.com/SkinnyDevi/webui_tavernai_charas
-
 ## llm_steer-oobabooga
 Steer LLM outputs towards a certain topic/subject and enhance response capabilities using activation engineering by adding steering vectors, now in oobabooga text generation webui! 
 
 https://github.com/Hellisotherpeople/llm_steer-oobabooga/tree/main
-
-## telegram_bot
-Provides a cai-chat like telegram bot interface. 
-
-https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
 
 ## Virtual Lora
 
@@ -214,12 +221,6 @@ A web search extension for Oobabooga's text-generation-webui (now with nouget OC
 This extension allows you and your LLM to explore and perform research on the internet together.  It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
 
 https://github.com/RandomInternetPreson/LucidWebSearch
-
-## web_rag
-
-Web RAG -- Retrieval-Augmented Generation from Web content. Retrieves web data using the Links browser in command-line mode (must be installed on your machine). For Manual retrieval, specify the full URL. For Auto-RAG, the prompt is converted to a query and embedded in a URL (set up in UI).
-
-https://github.com/Anglebrackets/web_rag
 
 ## edge_tts
 A simple implentation of Microsoft's free online TTS service using the [edge_tts](https://github.com/rany2/edge-tts) python library. Now supports RVC!
