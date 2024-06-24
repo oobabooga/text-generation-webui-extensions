@@ -6,10 +6,19 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 
 
-## Memoir+
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
 
-https://github.com/brucepro/Memoir
+## Diffusion_TTS 
+
+Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
+
+https://github.com/SicariusSicariiStuff/Diffusion_TTS
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search. 
+
+https://github.com/mamei16/LLM_Web_search
 
 ## AllTalk TTS
 
@@ -29,12 +38,10 @@ AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for
 
 https://github.com/erew123/alltalk_tts
 
-## LLM_Web_search
+## Memoir+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
 
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search. 
-
-https://github.com/mamei16/LLM_Web_search
+https://github.com/brucepro/Memoir
 
 ## Integrated TavernUI Characters
 This extension features a character searcher, downloader and manager for any TavernAI
@@ -161,12 +168,6 @@ https://github.com/p-e-w/chatbot_clinic
 An expanded version of the included sd_api_pictures extension that features injecting character tags or arbitrary tags upon detection of specific strings into SD side prompt. Greatly improves character self-image stability and allows dynamic usage of LORAs.
 
 https://github.com/GuizzyQC/sd_api_pictures_tag_injection
-
-## Diffusion_TTS 
-
-Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
-
-https://github.com/SicariusSicariiStuff/Diffusion_TTS
 
 ## complex_memory
 A KoboldAI-like memory extension. You create memories that are injected into the context of the conversation, for prompting based on keywords. 
