@@ -9,25 +9,6 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 
 
-## Memoir+
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
-
-https://github.com/brucepro/Memoir
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search. 
-
-https://github.com/mamei16/LLM_Web_search
-
-## LucidWebSearch
-
-A web search extension for Oobabooga's text-generation-webui (now with nouget OCR model support).
-
-This extension allows you and your LLM to explore and perform research on the internet together.  It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
-
-https://github.com/RandomInternetPreson/LucidWebSearch
 
 ## AllTalk TTS
 
@@ -46,6 +27,32 @@ AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for
 - **Can be run as a standalone app** Not just inside of text-generation-webui.
 
 https://github.com/erew123/alltalk_tts
+
+## Memoir+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
+
+https://github.com/brucepro/Memoir
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search. 
+
+https://github.com/mamei16/LLM_Web_search
+
+## Lucid_Vision
+
+This extension enhances the capabilities of textgen-webui by integrating advanced vision models, allowing users to have contextualized conversations about images with their favorite language models; and allowing direct communication with vision models.
+
+https://github.com/RandomInternetPreson/Lucid_Vision
+
+## LucidWebSearch
+
+A web search extension for Oobabooga's text-generation-webui (now with nouget OCR model support).
+
+This extension allows you and your LLM to explore and perform research on the internet together.  It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
+
+https://github.com/RandomInternetPreson/LucidWebSearch
 
 ## telegram_bot
 Provides a cai-chat like telegram bot interface. 
@@ -87,12 +94,6 @@ cards.
 </details>
 
 https://github.com/SkinnyDevi/webui_tavernai_charas
-
-## Lucid_Vision
-
-This extension enhances the capabilities of textgen-webui by integrating advanced vision models, allowing users to have contextualized conversations about images with their favorite language models; and allowing direct communication with vision models.
-
-https://github.com/RandomInternetPreson/Lucid_Vision
 
 ## code_syntax_highlight
 <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
