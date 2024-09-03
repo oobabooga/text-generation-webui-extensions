@@ -5,6 +5,7 @@ This is a directory of extensions for https://github.com/oobabooga/text-generati
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
+
 ## LLM_Web_search
 
 Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
@@ -29,6 +30,16 @@ AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for
 - **Can be run as a standalone app** Not just inside of text-generation-webui.
 
 https://github.com/erew123/alltalk_tts
+
+## google_translate_plus
+Improved version of the built-in google_translate extension. 
+
+### Features:
+- Preserve paragraphs by replacing `\n` with `@ ` before and after translation
+- Ability to translate large texts by splitting text longer than 1500 characters into several parts before translation
+- Does not translate text fragments between `~`. For example, the text `Он сказал ~"Привет"~` will be translated as `He said "Привет"`
+
+https://github.com/Vasyanator/google_translate_plus
 
 ## Memoir+
 Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
@@ -126,16 +137,6 @@ Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled
 - Supports face swapping using SD FaceSwapLab extension, no need for loras when you want consistent characters
 
 https://github.com/Trojaner/text-generation-webui-stable_diffusion
-
-## google_translate_plus
-Improved version of the built-in google_translate extension. 
-
-### Features:
-- Preserve paragraphs by replacing `\n` with `@ ` before and after translation
-- Ability to translate large texts by splitting text longer than 1500 characters into several parts before translation
-- Does not translate text fragments between `~`. For example, the text `Он сказал ~"Привет"~` will be translated as `He said "Привет"`
-
-https://github.com/Vasyanator/google_translate_plus
 
 ## SpeakLocal
 A TTS extension that uses your host's native TTS engine for speech generation. 100% local, low resource usage, and no word limit. Primary use case is accessing your *text-generation-webui* instance with a mobile device while conserving bandwidth with high token responses.
