@@ -6,12 +6,6 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 
 
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search. 
-
-https://github.com/mamei16/LLM_Web_search
 
 ## AllTalk TTS
 
@@ -30,6 +24,18 @@ AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for
 - **Can be run as a standalone app** Not just inside of text-generation-webui.
 
 https://github.com/erew123/alltalk_tts
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search. 
+
+https://github.com/mamei16/LLM_Web_search
+
+## telegram_bot
+Provides a cai-chat like telegram bot interface. 
+
+https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
 
 ## google_translate_plus
 Improved version of the built-in google_translate extension. 
@@ -59,11 +65,6 @@ A web search extension for Oobabooga's text-generation-webui (now with nouget OC
 This extension allows you and your LLM to explore and perform research on the internet together.  It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
 
 https://github.com/RandomInternetPreson/LucidWebSearch
-
-## telegram_bot
-Provides a cai-chat like telegram bot interface. 
-
-https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
 
 ## Diffusion_TTS 
 
@@ -311,12 +312,6 @@ It also can make model's output auto translate to Japanese before it process by 
 [VOICEVOX/voicevox_engine](https://github.com/VOICEVOX/voicevox_engine#%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89) is needed.
 
 https://github.com/asadfgglie/voicevox_tts
-
-## moztts
-Integration of [Mozilla-TTS](https://github.com/mozilla/TTS) . 
-Speed and quality is very dependant on the voice chosen but overall sounding better (subjectively) than silero whilst still being free.
-
-https://github.com/sammyf/moztts
 
 ## Long term memory with qdrant vector database
 A long term memory extension leveraging qdrant vector database collections dynamically created and managed per character. Uses docker for qdrant but should work with cloud as well.
