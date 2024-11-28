@@ -6,8 +6,9 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 ## SKDV's ComfyUI Image Generation
 
-<img src="https://raw.githubusercontent.com/SkinnyDevi/skdv_comfyui/e3384bfd8094f2795250bd5340e2e2222572c8fa/docs/logos.svg" alt="Images">
-<br/>
+<p align="center">
+	<img src="https://raw.githubusercontent.com/SkinnyDevi/skdv_comfyui/refs/heads/master/docs/logos.png" height="110px" alt="ComfyUI"/>
+</p>
 
 >This extension provides image generation from ComfyUI inside oobabooga's text generation webui.
 
