@@ -7,23 +7,29 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 
 
-## AllTalk TTS
+## AllTalk v2 TTS
 
-AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for Text generation webUI, however supports a variety of advanced features.
+Multi-engine TTS system with tight integration into Text-generation-webui.
 
-- **Custom Start-up Settings:** Adjust your default start-up settings. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
-- **Narrarator:** Use different voices for main character and narration. [Example Narration](https://vocaroo.com/18nrv7FR6wuA)
-- **Low VRAM mode:** Great for people with small GPU memory or if your VRAM is filled by your LLM. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
-- **DeepSpeed:** A 3-4x performance boost generating TTS. [DeepSpeed Windows/Linux Instructions](https://github.com/erew123/alltalk_tts?tab=readme-ov-file#deepspeed-installation-options) [Screenshot](https://github.com/erew123/alltalk_tts/assets/35898566/548619c8-5f1b-47d0-a73d-54d2fee3f3db)
-- **Local/Custom models:** Use any of the XTTSv2 models (API Local and XTTSv2 Local).
-- **Optional wav file maintenance:** Configurable deletion of old output wav files. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
-- **Finetuning** Train the model specifically on a voice of your choosing for better reproduction.
-- **Documentation:** Fully documented with a built in webpage. [Screenshot](https://github.com/erew123/alltalk_tts#screenshots)
-- **Console output** Clear command line output for any warnings or issues.
-- **API Suite and 3rd Party support via JSON calls** Can be used with 3rd party applications via JSON calls.
-- **Can be run as a standalone app** Not just inside of text-generation-webui.
+- Integration with [Text-generation-webui](https://github.com/erew123/alltalk_tts/wiki/Text%E2%80%90generation%E2%80%90webui-Remote-Extension)
+- Multiple TTS engine support:
+    - Coqui XTTS TTS **(voice cloning)**
+    - F5 TTS **(voice cloning)** 
+    - Coqui VITS TTS
+    - Piper TTS
+    - Parler TTS
+    - Other TTS engines [can be coded in](https://github.com/erew123/alltalk_tts/wiki/Guide-to-Integrating-New-TTS-Engines-into-AllTalk)
+- Retrieval-based Voice Conversion [(RVC) pipeline](https://github.com/erew123/alltalk_tts/wiki/RVC-(Retrieval%E2%80%90based-Voice-Conversion))
+- Customizable settings for each TTS engine
+- Gradio web interface for easy management [Screenshots](https://github.com/erew123/alltalk_tts/discussions/237)
+- Narrator function for using different voices for characters and narration
+- Audio Transcoding to multiple formats (mp3, opus, etc.)
+- Built-in documentation throughout
+- Detailed [Github Wiki](https://github.com/erew123/alltalk_tts/wiki)
+- [Quickstart guide](https://github.com/erew123/alltalk_tts/wiki/AllTalk-V2-QuickStart-Guide)
+- **And much more**.....
 
-https://github.com/erew123/alltalk_tts
+Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
 
 ## LLM_Web_search
 
