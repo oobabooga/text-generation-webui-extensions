@@ -1,11 +1,107 @@
 # text-generation-webui-extensions
 
-This is a directory of extensions for https://github.com/oobabooga/text-generation-webui
+This is a directory of extensions for <https://github.com/oobabooga/text-generation-webui>
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## SKDV's ComfyUI Image Generation
 
+<p align="center">
+	<img src="https://raw.githubusercontent.com/SkinnyDevi/skdv_comfyui/refs/heads/master/docs/logos.png" height="110px" alt="ComfyUI"/>
+</p>
 
+>This extension provides image generation from ComfyUI inside oobabooga's text generation webui.
+
+>**Disclaimer**: this extension is in no way, shape or form associated with ComfyUI or SillyTavern.
+
+### General features
+- Customize any image parameters for ComfyUI generation:
+	- Model
+	- VAE
+	- Resolution presets (with individual width & height)
+	- Sampler
+	- Scheduler
+	- Steps
+	- CFG Scale
+	- Fixed and random seeds
+- Generation buttons directly from the chat tab
+- Generate image prompts from your text messages using your text models
+
+### Roleplaying parameters
+- Add quality parameters that apply to all characters
+- Add custom prompts for different characters
+
+### Workflows
+- Import your custom workflows (API format workflows)
+  - Use SillyTavern's custom variables to send to ComfyUI from WebUI!
+- Send your avatar image to the workflow
+- Send the character's avatar image to the workflow
+- Workflow code editor (basic)
+
+### Settings and Quality of Life
+- Automatic model unloading for WebUI and ComfyUI models to save VRAM
+- Extension updater
+- Edit prompts before generating
+
+<br/>
+
+<details>
+ <summary>Click to preview the interface</summary>
+ <br/>
+
+#### Extended hover menu actions
+![Extended hover menu actions](https://raw.githubusercontent.com/SkinnyDevi/skdv_comfyui/master/docs/hover-menu-buttons.png)
+
+#### Custom character prompts in chat
+![Custom character prompts in chat](https://raw.githubusercontent.com/SkinnyDevi/skdv_comfyui/master/docs/character-prompts.png)
+
+#### Generation parameters
+![Generation parameters](https://raw.githubusercontent.com/SkinnyDevi/skdv_comfyui/master/docs/generation-parameters.png)
+
+#### Shared character prompts
+![Shared character prompts](https://raw.githubusercontent.com/SkinnyDevi/skdv_comfyui/master/docs/shared-character-prompts.png)
+
+#### Image Prompt Editor
+![Image Prompt Editor](https://raw.githubusercontent.com/SkinnyDevi/skdv_comfyui/master/docs/image-prompt-editor.png)
+
+#### Workflow editor
+![Workflow editor](https://raw.githubusercontent.com/SkinnyDevi/skdv_comfyui/master/docs/workflow-editor.png)
+
+</details>
+
+<https://github.com/SkinnyDevi/skdv_comfyui>
+
+## SKDV Integrated TavernUI Characters
+
+This extension features a character searcher, downloader and manager for any TavernAI
+cards.
+
+### General features
+
+- Main page recent and random cards, as well as random categories upon main page launch
+- Card filtering with text search, NSFW blocking\* and category filtering
+- Card downloading
+- Offline card manager
+- Search and delete downloaded cards
+
+\*_Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW._
+
+<details>
+ <summary>Click to preview the interface</summary>
+ <br/>
+
+Main extension page with recent and random cards
+![MainSection](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-online.png)
+Search online TavernAI cards
+![CardSearcher](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-searcher.png)
+Advanced search filtering with card categories
+![SearcherCategories](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/searcher-categories.png)
+Manage your offline cards
+![offlineCardManager](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/offline-cards.png)
+
+</details>
+
+<https://github.com/SkinnyDevi/webui_tavernai_charas>
 
 ## AllTalk v2 TTS
 
@@ -34,84 +130,59 @@ Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkb
 ## LLM_Web_search
 
 Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search. 
+when to use the command and what to search.
 
-https://github.com/mamei16/LLM_Web_search
+<https://github.com/mamei16/LLM_Web_search>
 
 ## telegram_bot
-Provides a cai-chat like telegram bot interface. 
 
-https://github.com/innightwolfsleep/text-generation-webui-telegram_bot
+Provides a cai-chat like telegram bot interface.
+
+<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
 
 ## google_translate_plus
-Improved version of the built-in google_translate extension. 
 
-### Features:
-- Preserve paragraphs by replacing `\n` with `@ ` before and after translation
+Improved version of the built-in google_translate extension.
+
+### Features
+
+- Preserve paragraphs by replacing `\n` with `@` before and after translation
 - Ability to translate large texts by splitting text longer than 1500 characters into several parts before translation
 - Does not translate text fragments between `~`. For example, the text `Он сказал ~"Привет"~` will be translated as `He said "Привет"`
 
-https://github.com/Vasyanator/google_translate_plus
+<https://github.com/Vasyanator/google_translate_plus>
 
 ## Memoir+
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona. 
 
-https://github.com/brucepro/Memoir
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+
+<https://github.com/brucepro/Memoir>
 
 ## Lucid_Vision
 
 This extension enhances the capabilities of textgen-webui by integrating advanced vision models, allowing users to have contextualized conversations about images with their favorite language models; and allowing direct communication with vision models.
 
-https://github.com/RandomInternetPreson/Lucid_Vision
+<https://github.com/RandomInternetPreson/Lucid_Vision>
 
 ## LucidWebSearch
 
 A web search extension for Oobabooga's text-generation-webui (now with nouget OCR model support).
 
-This extension allows you and your LLM to explore and perform research on the internet together.  It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
+This extension allows you and your LLM to explore and perform research on the internet together. It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
 
-https://github.com/RandomInternetPreson/LucidWebSearch
+<https://github.com/RandomInternetPreson/LucidWebSearch>
 
-## Diffusion_TTS 
+## Diffusion_TTS
 
 Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
 
-https://github.com/SicariusSicariiStuff/Diffusion_TTS
-
-## Integrated TavernUI Characters
-This extension features a character searcher, downloader and manager for any TavernAI
-cards.
-
-### General features
-- Main page recent and random cards, as well as random categories upon main page launch
-- Card filtering with text search, NSFW blocking* and category filtering
-- Card downloading
-- Offline card manager
-- Search and delete downloaded cards
-
-**Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW.*
-
-<details>
-	<summary>Click to preview the interface</summary>
-	<br/>
-
-  Main extension page with recent and random cards
-	![MainSection](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-online.png)
-	Search online TavernAI cards
-	![CardSearcher](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-searcher.png)
-	Advanced search filtering with card categories
-	![SearcherCategories](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/searcher-categories.png)
-	Manage your offline cards
-	![offlineCardManager](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/offline-cards.png)
- 
-</details>
-
-https://github.com/SkinnyDevi/webui_tavernai_charas
+<https://github.com/SicariusSicariiStuff/Diffusion_TTS>
 
 ## code_syntax_highlight
+
 <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-header-1.png" width="750" title="Code Syntax Highlight extension">
 
-An extension that adds syntax highlighting to code snippets, along with a toggleable copy-to-clipboard button and a performance mode for minimal impact on CPU usage.  
+An extension that adds syntax highlighting to code snippets, along with a toggleable copy-to-clipboard button and a performance mode for minimal impact on CPU usage.
 
 Supports all interface modes and both light and dark themes.
 
@@ -125,13 +196,13 @@ Supports all interface modes and both light and dark themes.
 
 </details>
 
-https://github.com/DavG25/text-generation-webui-code_syntax_highlight
+<https://github.com/DavG25/text-generation-webui-code_syntax_highlight>
 
 ## web_rag
 
 Web RAG -- Retrieval-Augmented Generation from Web content. Retrieves web data using the Links browser in command-line mode (must be installed on your machine). For Manual retrieval, specify the full URL. For Auto-RAG, the prompt is converted to a query and embedded in a URL (set up in UI).
 
-https://github.com/Anglebrackets/web_rag
+<https://github.com/Anglebrackets/web_rag>
 
 ## stable_diffusion
 
@@ -139,16 +210,18 @@ Integrates image generation capabilities using Stable Diffusion.
 Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled API.
 
 **Features**
+
 - Highly customizable
 - Well documented
 - Supports face swapping using SD FaceSwapLab extension, no need for loras when you want consistent characters
 
-https://github.com/Trojaner/text-generation-webui-stable_diffusion
+<https://github.com/Trojaner/text-generation-webui-stable_diffusion>
 
 ## SpeakLocal
-A TTS extension that uses your host's native TTS engine for speech generation. 100% local, low resource usage, and no word limit. Primary use case is accessing your *text-generation-webui* instance with a mobile device while conserving bandwidth with high token responses.
 
-https://github.com/ill13/SpeakLocal/
+A TTS extension that uses your host's native TTS engine for speech generation. 100% local, low resource usage, and no word limit. Primary use case is accessing your _text-generation-webui_ instance with a mobile device while conserving bandwidth with high token responses.
+
+<https://github.com/ill13/SpeakLocal/>
 
 ## Chatbot Clinic
 
@@ -176,79 +249,88 @@ The results are displayed in a detailed statistics view.
 
 </details>
 
-https://github.com/p-e-w/chatbot_clinic
+<https://github.com/p-e-w/chatbot_clinic>
 
 ## sd_api_pictures_tag_injection
+
 An expanded version of the included sd_api_pictures extension that features injecting character tags or arbitrary tags upon detection of specific strings into SD side prompt. Greatly improves character self-image stability and allows dynamic usage of LORAs.
 
-https://github.com/GuizzyQC/sd_api_pictures_tag_injection
+<https://github.com/GuizzyQC/sd_api_pictures_tag_injection>
 
 ## complex_memory
-A KoboldAI-like memory extension. You create memories that are injected into the context of the conversation, for prompting based on keywords. 
 
-https://github.com/theubie/complex_memory
+A KoboldAI-like memory extension. You create memories that are injected into the context of the conversation, for prompting based on keywords.
+
+<https://github.com/theubie/complex_memory>
 
 ## Model Ducking
+
 Model Ducking allows the currently loaded model to automatically unload itself immediately after a prompt is processed, thereby freeing up VRAM for use in other programs. It automatically reloads the last model upon sending another prompt.
 
-https://github.com/BoredBrownBear/text-generation-webui-model_ducking
+<https://github.com/BoredBrownBear/text-generation-webui-model_ducking>
 
-## More translators  
+## More translators
+
 This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so on.  
 Need to run `pip install --upgrade translators` first.
 
-https://github.com/Touch-Night/more_translators
+<https://github.com/Touch-Night/more_translators>
 
 ## llm_steer-oobabooga
-Steer LLM outputs towards a certain topic/subject and enhance response capabilities using activation engineering by adding steering vectors, now in oobabooga text generation webui! 
 
-https://github.com/Hellisotherpeople/llm_steer-oobabooga/tree/main
+Steer LLM outputs towards a certain topic/subject and enhance response capabilities using activation engineering by adding steering vectors, now in oobabooga text generation webui!
+
+<https://github.com/Hellisotherpeople/llm_steer-oobabooga/tree/main>
 
 ## Virtual Lora
 
 State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
 
-If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes *essential*. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly.  It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
+If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes _essential_. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly. It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
 
-https://github.com/FartyPants/VirtualLora
+<https://github.com/FartyPants/VirtualLora>
 
 ## piper_tts
 
 An extension for using [Piper](https://github.com/rhasspy/piper) text-to-speech (TTS) model for fast voice generation. The main objective is to provide a user-friendly experience for text generation with audio. This TTS system allows multiple languages, with quality-voices and fast synthesis (much faster than real-time).
 
-https://github.com/tijo95/piper_tts
+<https://github.com/tijo95/piper_tts>
 
 ## Web_Search
+
 This extension enables' a language model to receive google search data according to the users' input.[Currently supports google search only]
 
 Simple way to do google searches through the webUI and the model responds with the results.
 
 One needs to type search then what you want to search for, example:
- 
- Type ```search the weather in Nairobi, Kenya today.```
 
-https://github.com/simbake/web_search
+Type `search the weather in Nairobi, Kenya today.`
+
+<https://github.com/simbake/web_search>
 
 ## edge_tts
+
 A simple implentation of Microsoft's free online TTS service using the [edge_tts](https://github.com/rany2/edge-tts) python library. Now supports RVC!
 
-https://github.com/BuffMcBigHuge/text-generation-webui-edge-tts
+<https://github.com/BuffMcBigHuge/text-generation-webui-edge-tts>
 
 ## LibreTranslate
 
-Offline translate using the LibreTranslate local server. 
+Offline translate using the LibreTranslate local server.
 
-https://github.com/brucepro/LibreTranslate-extension-for-text-generation-webui
+<https://github.com/brucepro/LibreTranslate-extension-for-text-generation-webui>
 
 ## CodeRunner
 
 Make a code execution environment available to your LLM.
 This extension uses thebe and a jupyter server to run code on.
 
-https://github.com/xr4dsh/CodeRunner
+<https://github.com/xr4dsh/CodeRunner>
 
 ## Playground for Writers
+
 This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
+
 - Two independent Notebooks A and B that are always present, regardless of the mode
 - Inline instruct (abilty to ask question or give task from within the text itself)
 - Select and Insert - generate text in the middle of your text
@@ -256,20 +338,21 @@ This extension provides an independent advanced notebook that will be always pre
 - LoRA-Rama - shows LoRA checkpoints and ability to switch between them
 - LoRA scaling (experimental) - adjust LoRA impact using a sclider
 
-https://github.com/FartyPants/Playground
+<https://github.com/FartyPants/Playground>
 
 ## Ooba_Dieroller
 
 A super simple extension that reads dice notation (eg. "2d6") from input text, and rolls a random result accordingly, feeding that into the prompt.
 Features support for modifiers (eg. "2d6+4") and advantage/disadvantage.
 
-https://github.com/TheInvisibleMage/ooba_dieroller
+<https://github.com/TheInvisibleMage/ooba_dieroller>
 
 ## Twinbook
+
 This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
 For more trips how to use it, read the README
 
-https://github.com/FartyPants/Twinbook
+<https://github.com/FartyPants/Twinbook>
 
 ## Emotivoice_TTS
 
@@ -277,77 +360,83 @@ A simple extension that can make model's output text-to-speach by Emotivoice (Ch
 
 This model is super fast, usually cost only <0.2 sec for a ~20 words sentence on 3090 with ~1GB VRAM occupation.
 
-https://github.com/yhyu13/Emotivoice_TTS
+<https://github.com/yhyu13/Emotivoice_TTS>
 
 ## Session_Manager
 
 UI for saving/loading data and parameters between sessions, periodic autosaving
 
-https://github.com/bekkayya/session_manager/
+<https://github.com/bekkayya/session_manager/>
 
 ## XTTSv2
 
 A variant of the coqui_tts extension in the main repository. Both use the XTTSv2 model, but this one has a "narrator" feature for text written \*between asterisks\*.
 
-https://github.com/kanttouchthis/text_generation_webui_xtts
+<https://github.com/kanttouchthis/text_generation_webui_xtts>
 
 ## Echoproof
 
 Injects recent conversation history into the negative prompt with the goal of minimizing the LLM's tendency to fixate on a single word, phrase, or sentence structure. Provides controls for optimizing the results.
 
-https://github.com/ThereforeGames/echoproof
+<https://github.com/ThereforeGames/echoproof>
 
 ## bark_tts
 
 A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
 
-The owner of the original extension has not had the time to maintain it.  I have forked it to make it compatible with the current state of Oobabooga's textgen-webui and have improved/modified the text output that the AI reads to prevent errors with special character recognition.
+The owner of the original extension has not had the time to maintain it. I have forked it to make it compatible with the current state of Oobabooga's textgen-webui and have improved/modified the text output that the AI reads to prevent errors with special character recognition.
 
-(forked from the original and no longer maintained https://github.com/minemo/text-generation-webui-barktts)
+(forked from the original and no longer maintained <https://github.com/minemo/text-generation-webui-barktts>)
 
-https://github.com/RandomInternetPreson/text-generation-webui-barktts
+<https://github.com/RandomInternetPreson/text-generation-webui-barktts>
 
 ## bark_tts
+
 A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect support.
 
-https://github.com/minemo/text-generation-webui-barktts
+<https://github.com/minemo/text-generation-webui-barktts>
 
 ## voicevox_tts
+
 A simple extension that can make model's output text-to-speach by voicevox.
 It also can make model's output auto translate to Japanese before it process by voicevox.
 [VOICEVOX/voicevox_engine](https://github.com/VOICEVOX/voicevox_engine#%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89) is needed.
 
-https://github.com/asadfgglie/voicevox_tts
+<https://github.com/asadfgglie/voicevox_tts>
 
 ## Long term memory with qdrant vector database
+
 A long term memory extension leveraging qdrant vector database collections dynamically created and managed per character. Uses docker for qdrant but should work with cloud as well.
 
-https://github.com/jason-brian-anderson/long_term_memory_with_qdrant
+<https://github.com/jason-brian-anderson/long_term_memory_with_qdrant>
 
 ## EdgeGPT
+
 Extension for Text Generation Webui based on EdgeGPT by acheong08, for a quick Internet access for your bot.
 
-https://github.com/GiusTex/EdgeGPT
+<https://github.com/GiusTex/EdgeGPT>
 
 ## UI Tweaks
-Adds options to keep tabs on page (sticky tabs) and to move extensions into a hidden sidebar. Reduces the need for scrolling up and down. 
+
+Adds options to keep tabs on page (sticky tabs) and to move extensions into a hidden sidebar. Reduces the need for scrolling up and down.
 
 <details>
   <summary>Click to show preview</summary>
   <br>
 
-  ![preview-1](https://github.com/xanthousm/text-gen-webui-ui_tweaks/assets/70198941/c5998420-9607-43d1-865f-65ec0f449ec2)
+![preview-1](https://github.com/xanthousm/text-gen-webui-ui_tweaks/assets/70198941/c5998420-9607-43d1-865f-65ec0f449ec2)
 
 </details>
 
-#### Sidebar options:
+#### Sidebar options
+
 - Open sidebar on startup
 - Dynamic height (shrink to fit)
 - Custom width
 
 Restart interface to apply setting changes. Save settings by editing params in scipt.py or using settings.json
 
-https://github.com/xanthousm/text-gen-webui-ui_tweaks
+<https://github.com/xanthousm/text-gen-webui-ui_tweaks>
 
 ## AutoSave
 
@@ -357,7 +446,7 @@ If you've ever lost a great response or forgot to copy and save your perfect pro
 
 100% local saving
 
-https://github.com/ill13/AutoSave/
+<https://github.com/ill13/AutoSave/>
 
 ## webui_langchain_agent
 
@@ -367,24 +456,26 @@ Creates an Langchain Agent which uses the WebUI's API and Wikipedia to work and 
 Tested to be barely working, I learned python a couple of weeks ago, bear with me.
 
 Needs `api` and `no_stream` enabled.
+
 <details>
   <summary>Click to show preview</summary>
   <br>
 
-  ![preview-1](https://user-images.githubusercontent.com/45816945/236649969-0d4fbab3-15e9-4cf0-88d0-71419e77d1cb.png)
+![preview-1](https://user-images.githubusercontent.com/45816945/236649969-0d4fbab3-15e9-4cf0-88d0-71419e77d1cb.png)
 
 </details>
 
-https://github.com/ChobPT/oobaboogas-webui-langchain_agent/
+<https://github.com/ChobPT/oobaboogas-webui-langchain_agent/>
 
 ## deepl_translator
+
 A simple extension input and output translation by the deepl
 
-https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate
+<https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate>
 
 ## oobabot
 
-Another Discord bot, with both command-line and GUI modes.  Easy setup, lots of config options, and customizable characters!
+Another Discord bot, with both command-line and GUI modes. Easy setup, lots of config options, and customizable characters!
 
 - [**`oobabot`**](https://github.com/chrisrude/oobabot) -- command-line mode, uses Oobabooga's API module
 
@@ -395,73 +486,82 @@ Another Discord bot, with both command-line and GUI modes.  Easy setup, lots of 
 Oobabot Screenshots!
 </summary>
 
-| Config UI   | In Action! |
-| ----------- | ----------- |
-| ![image](https://raw.githubusercontent.com/chrisrude/oobabot-plugin/main/docs/oobabot-plugin.png) | ![image](https://raw.githubusercontent.com/chrisrude/oobabot/main/docs/zombietaytay.png)|
+| Config UI                                                                                         | In Action!                                                                               |
+| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| ![image](https://raw.githubusercontent.com/chrisrude/oobabot-plugin/main/docs/oobabot-plugin.png) | ![image](https://raw.githubusercontent.com/chrisrude/oobabot/main/docs/zombietaytay.png) |
 
 </details>
 
-https://github.com/chrisrude/oobabot-plugin
+<https://github.com/chrisrude/oobabot-plugin>
 
 ## long_term_memory
-A sophisticated extension that creates a long term memory for bots in chat mode. 
 
-https://github.com/wawawario2/long_term_memory
+A sophisticated extension that creates a long term memory for bots in chat mode.
+
+<https://github.com/wawawario2/long_term_memory>
 
 ## webui-autonomics
+
 Adjust text generation parameters dynamically to better mirror emotional tone.
 
 <details>
   <summary>Click to show preview</summary>
   <br>
 
-  ![autonomic2](https://user-images.githubusercontent.com/108030031/232086809-57398b01-1412-4955-81f0-4adf21ba48c4.png)
+![autonomic2](https://user-images.githubusercontent.com/108030031/232086809-57398b01-1412-4955-81f0-4adf21ba48c4.png)
 
 </details>
 
-https://github.com/dibrale/webui-autonomics
+<https://github.com/dibrale/webui-autonomics>
 
 ## Guidance API
+
 An extension that goes with [guidance](https://github.com/microsoft/guidance/pull/221) in order to enable guidance to be used when generating text
 for schemaful data
 
-https://github.com/danikhan632/guidance_api
+<https://github.com/danikhan632/guidance_api>
 
 ## jsonformer
+
 Force the output of your model to conform to a specified JSON schema. Works even for small models that usually cannot produce well-formed JSON.
 
-https://github.com/hallucinate-games/oobabooga-jsonformer-plugin
+<https://github.com/hallucinate-games/oobabooga-jsonformer-plugin>
 
 ## FPreloader
+
 An essential extension for extensions developers - it will reload your extensions without the need to reboot web ui
 
-https://github.com/FartyPants/FPreloader
+<https://github.com/FartyPants/FPreloader>
 
 ## dynamic_context
+
 A simple extension that replaces {{time}} and {{date}} on the current character's context with the current time and date respectively.
 Also adds time context (and optionally date) to the last prompt to add extra context to the AI response.
 
-https://github.com/elPatrixF/dynamic_context
+<https://github.com/elPatrixF/dynamic_context>
 
 ## api_advanced
 
 An expanded version of api extension.
+
 1. Provide Kobold-like interface (the same way as "api" classic extension)
 2. **Provide advanced logic to auto-translate income prompts:**
-    - You need to use multi_translate extension: https://github.com/janvarev/multi_translate
-    - Set up param `'is_advanced_translation': True`, (set by default)
-    - ...see the details in console
-      - Due to advanced logic script splits income prompt by lines, and **cache translation results**
-      - **Text quality feature:** when it generate English response, it cache it too (so you don't do double-translation English->UserLang->English next time) 
+   - You need to use multi_translate extension: <https://github.com/janvarev/multi_translate>
+   - Set up param `'is_advanced_translation': True`, (set by default)
+   - ...see the details in console
+     - Due to advanced logic script splits income prompt by lines, and **cache translation results**
+     - **Text quality feature:** when it generate English response, it cache it too (so you don't do double-translation English->UserLang->English next time)
 
-https://github.com/janvarev/api_advanced
+<https://github.com/janvarev/api_advanced>
 
 ## multi_translate
+
 An expanded version of the google_translate extension, that provide more translation options (more engines, save options to file, functionality to toggle on/off translations on the fly).
 
-https://github.com/janvarev/multi_translate
+<https://github.com/janvarev/multi_translate>
 
 ## discord_bot
+
 Discord integration for the oobabooga's text-generation-webui (Inspired by DavG25's plugin)
 
 Currently it only sends any response from the chatbot to a discord Webhook of your choosing
@@ -476,5 +576,4 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
 
 </details>
 
-https://github.com/ChobPT/text-generation-webui-discord_bot
-
+<https://github.com/ChobPT/text-generation-webui-discord_bot>
