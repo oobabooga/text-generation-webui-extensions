@@ -8,7 +8,7 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 TTS with Kokoro v0.19
 
-- 11 Different votes to choose from
+- 11 Different voices to choose from
 
 <https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
 
