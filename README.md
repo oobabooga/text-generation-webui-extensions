@@ -4,6 +4,14 @@ This is a directory of extensions for <https://github.com/oobabooga/text-generat
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## Kokoro TTS
+
+TTS with Kokoro v0.19
+
+- 11 Different votes to choose from
+
+<https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
+
 ## SKDV's ComfyUI Image Generation
 
 <p align="center">
