@@ -4,6 +4,7 @@ This is a directory of extensions for <https://github.com/oobabooga/text-generat
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+
 ## Kokoro TTS
 
 TTS with Kokoro v0.19
@@ -11,6 +12,69 @@ TTS with Kokoro v0.19
 - 11 Different voices to choose from
 
 <https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
+
+## Virtual Lora
+
+State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
+
+If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes _essential_. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly. It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
+
+<https://github.com/FartyPants/VirtualLora>
+
+## AllTalk v2 TTS
+
+Multi-engine TTS system with tight integration into Text-generation-webui.
+
+- Integration with [Text-generation-webui](https://github.com/erew123/alltalk_tts/wiki/Text%E2%80%90generation%E2%80%90webui-Remote-Extension)
+- Multiple TTS engine support:
+    - Coqui XTTS TTS **(voice cloning)**
+    - F5 TTS **(voice cloning)** 
+    - Coqui VITS TTS
+    - Piper TTS
+    - Parler TTS
+    - Other TTS engines [can be coded in](https://github.com/erew123/alltalk_tts/wiki/Guide-to-Integrating-New-TTS-Engines-into-AllTalk)
+- Retrieval-based Voice Conversion [(RVC) pipeline](https://github.com/erew123/alltalk_tts/wiki/RVC-(Retrieval%E2%80%90based-Voice-Conversion))
+- Customizable settings for each TTS engine
+- Gradio web interface for easy management [Screenshots](https://github.com/erew123/alltalk_tts/discussions/237)
+- Narrator function for using different voices for characters and narration
+- Audio Transcoding to multiple formats (mp3, opus, etc.)
+- Built-in documentation throughout
+- Detailed [Github Wiki](https://github.com/erew123/alltalk_tts/wiki)
+- [Quickstart guide](https://github.com/erew123/alltalk_tts/wiki/AllTalk-V2-QuickStart-Guide)
+- **And much more**.....
+
+Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
+
+## telegram_bot
+
+Provides a cai-chat like telegram bot interface.
+
+<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
+
+## FPreloader
+
+An essential extension for extensions developers - it will reload your extensions without the need to reboot web ui
+
+<https://github.com/FartyPants/FPreloader>
+
+## LibreTranslate
+
+Offline translate using the LibreTranslate local server.
+
+<https://github.com/brucepro/LibreTranslate-extension-for-text-generation-webui>
+
+## Memoir+
+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+
+<https://github.com/brucepro/Memoir>
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
 
 ## SKDV's ComfyUI Image Generation
 
@@ -79,6 +143,50 @@ TTS with Kokoro v0.19
 
 <https://github.com/SkinnyDevi/skdv_comfyui>
 
+## jsonformer
+
+Force the output of your model to conform to a specified JSON schema. Works even for small models that usually cannot produce well-formed JSON.
+
+<https://github.com/hallucinate-games/oobabooga-jsonformer-plugin>
+
+## complex_memory
+
+A KoboldAI-like memory extension. You create memories that are injected into the context of the conversation, for prompting based on keywords.
+
+<https://github.com/theubie/complex_memory>
+
+## google_translate_plus
+
+Improved version of the built-in google_translate extension.
+
+### Features
+
+- Preserve paragraphs by replacing `\n` with `@` before and after translation
+- Ability to translate large texts by splitting text longer than 1500 characters into several parts before translation
+- Does not translate text fragments between `~`. For example, the text `Он сказал ~"Привет"~` will be translated as `He said "Привет"`
+
+<https://github.com/Vasyanator/google_translate_plus>
+
+## Lucid_Vision
+
+This extension enhances the capabilities of textgen-webui by integrating advanced vision models, allowing users to have contextualized conversations about images with their favorite language models; and allowing direct communication with vision models.
+
+<https://github.com/RandomInternetPreson/Lucid_Vision>
+
+## LucidWebSearch
+
+A web search extension for Oobabooga's text-generation-webui (now with nouget OCR model support).
+
+This extension allows you and your LLM to explore and perform research on the internet together. It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
+
+<https://github.com/RandomInternetPreson/LucidWebSearch>
+
+## Diffusion_TTS
+
+Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
+
+<https://github.com/SicariusSicariiStuff/Diffusion_TTS>
+
 ## SKDV Integrated TavernUI Characters
 
 This extension features a character searcher, downloader and manager for any TavernAI
@@ -110,81 +218,6 @@ Manage your offline cards
 </details>
 
 <https://github.com/SkinnyDevi/webui_tavernai_charas>
-
-## AllTalk v2 TTS
-
-Multi-engine TTS system with tight integration into Text-generation-webui.
-
-- Integration with [Text-generation-webui](https://github.com/erew123/alltalk_tts/wiki/Text%E2%80%90generation%E2%80%90webui-Remote-Extension)
-- Multiple TTS engine support:
-    - Coqui XTTS TTS **(voice cloning)**
-    - F5 TTS **(voice cloning)** 
-    - Coqui VITS TTS
-    - Piper TTS
-    - Parler TTS
-    - Other TTS engines [can be coded in](https://github.com/erew123/alltalk_tts/wiki/Guide-to-Integrating-New-TTS-Engines-into-AllTalk)
-- Retrieval-based Voice Conversion [(RVC) pipeline](https://github.com/erew123/alltalk_tts/wiki/RVC-(Retrieval%E2%80%90based-Voice-Conversion))
-- Customizable settings for each TTS engine
-- Gradio web interface for easy management [Screenshots](https://github.com/erew123/alltalk_tts/discussions/237)
-- Narrator function for using different voices for characters and narration
-- Audio Transcoding to multiple formats (mp3, opus, etc.)
-- Built-in documentation throughout
-- Detailed [Github Wiki](https://github.com/erew123/alltalk_tts/wiki)
-- [Quickstart guide](https://github.com/erew123/alltalk_tts/wiki/AllTalk-V2-QuickStart-Guide)
-- **And much more**.....
-
-Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
-
-## telegram_bot
-
-Provides a cai-chat like telegram bot interface.
-
-<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
-
-## google_translate_plus
-
-Improved version of the built-in google_translate extension.
-
-### Features
-
-- Preserve paragraphs by replacing `\n` with `@` before and after translation
-- Ability to translate large texts by splitting text longer than 1500 characters into several parts before translation
-- Does not translate text fragments between `~`. For example, the text `Он сказал ~"Привет"~` will be translated as `He said "Привет"`
-
-<https://github.com/Vasyanator/google_translate_plus>
-
-## Memoir+
-
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
-
-<https://github.com/brucepro/Memoir>
-
-## Lucid_Vision
-
-This extension enhances the capabilities of textgen-webui by integrating advanced vision models, allowing users to have contextualized conversations about images with their favorite language models; and allowing direct communication with vision models.
-
-<https://github.com/RandomInternetPreson/Lucid_Vision>
-
-## LucidWebSearch
-
-A web search extension for Oobabooga's text-generation-webui (now with nouget OCR model support).
-
-This extension allows you and your LLM to explore and perform research on the internet together. It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
-
-<https://github.com/RandomInternetPreson/LucidWebSearch>
-
-## Diffusion_TTS
-
-Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
-
-<https://github.com/SicariusSicariiStuff/Diffusion_TTS>
 
 ## code_syntax_highlight
 
@@ -265,12 +298,6 @@ An expanded version of the included sd_api_pictures extension that features inje
 
 <https://github.com/GuizzyQC/sd_api_pictures_tag_injection>
 
-## complex_memory
-
-A KoboldAI-like memory extension. You create memories that are injected into the context of the conversation, for prompting based on keywords.
-
-<https://github.com/theubie/complex_memory>
-
 ## Model Ducking
 
 Model Ducking allows the currently loaded model to automatically unload itself immediately after a prompt is processed, thereby freeing up VRAM for use in other programs. It automatically reloads the last model upon sending another prompt.
@@ -289,14 +316,6 @@ Need to run `pip install --upgrade translators` first.
 Steer LLM outputs towards a certain topic/subject and enhance response capabilities using activation engineering by adding steering vectors, now in oobabooga text generation webui!
 
 <https://github.com/Hellisotherpeople/llm_steer-oobabooga/tree/main>
-
-## Virtual Lora
-
-State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
-
-If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes _essential_. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly. It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
-
-<https://github.com/FartyPants/VirtualLora>
 
 ## piper_tts
 
@@ -321,12 +340,6 @@ Type `search the weather in Nairobi, Kenya today.`
 A simple implentation of Microsoft's free online TTS service using the [edge_tts](https://github.com/rany2/edge-tts) python library. Now supports RVC!
 
 <https://github.com/BuffMcBigHuge/text-generation-webui-edge-tts>
-
-## LibreTranslate
-
-Offline translate using the LibreTranslate local server.
-
-<https://github.com/brucepro/LibreTranslate-extension-for-text-generation-webui>
 
 ## CodeRunner
 
@@ -529,18 +542,6 @@ for schemaful data
 
 <https://github.com/danikhan632/guidance_api>
 
-## jsonformer
-
-Force the output of your model to conform to a specified JSON schema. Works even for small models that usually cannot produce well-formed JSON.
-
-<https://github.com/hallucinate-games/oobabooga-jsonformer-plugin>
-
-## FPreloader
-
-An essential extension for extensions developers - it will reload your extensions without the need to reboot web ui
-
-<https://github.com/FartyPants/FPreloader>
-
 ## dynamic_context
 
 A simple extension that replaces {{time}} and {{date}} on the current character's context with the current time and date respectively.
@@ -585,3 +586,4 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
 </details>
 
 <https://github.com/ChobPT/text-generation-webui-discord_bot>
+
