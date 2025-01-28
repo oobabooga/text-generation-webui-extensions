@@ -7,9 +7,9 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 ## Kokoro TTS
 
-TTS with Kokoro v0.19
+TTS with Kokoro v1
 
-- 11 Different voices to choose from
+- 26 Different voices to choose from
 
 <https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
 
