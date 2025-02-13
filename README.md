@@ -515,6 +515,30 @@ Oobabot Screenshots!
 
 <https://github.com/chrisrude/oobabot-plugin>
 
+## ad_discordbot (altoiddealer's discordbot)
+
+A discord bot for text and image generation, with an extreme level of customization and advanced features.
+
+<https://github.com/altoiddealer/ad_discordbot>
+
+- **Chat history management** - per-channel histories; auto-load on startup; resettable per channel
+- **Advanced "Tags" System** - dynamically modify bot behavior (trigger custom responses, modify settings, swap characters/models, etc)
+- **Image generation** - A1111/Forge/ReForge (ComfyUI planned); advanced settings handling; ControlNet & ReActor integration
+- **Extensive TTS Support** - (alltalk_tts, kokoro_tts, coqui_tts, etc.); ***per-character*** voices; ***voice channel integration***
+- **Slash Commands** - switch characters, change models, advanced image/text options, etc
+- **Layered Settings Framework** - global, user-specific, character-based customizations; option to post real-time updates to dedicated channels
+- **Context Menu Superpowers** - Right-click Regenerate, Edit, or Hide messages (even in deep history!)
+- **More extra features** - Automatic model swapping, Dynamic Prompting, Starboard, etc.
+
+<details>
+<summary>
+A few screenshots
+</summary>
+<img width="623" alt="Dynamic Prompting" src="https://github.com/user-attachments/assets/b15b8483-ef87-46f4-be37-ec70b1c9b992" />
+<img width="416" alt="ContextCommands" src="https://github.com/user-attachments/assets/a39db2ba-b14a-494e-b848-cce528231d11" />
+<img width="511" alt="controlnet" src="https://github.com/user-attachments/assets/e829895b-c993-449c-b7e7-6b17c2d29079" />
+</details>
+
 ## long_term_memory
 
 A sophisticated extension that creates a long term memory for bots in chat mode.
