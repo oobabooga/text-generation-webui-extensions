@@ -5,21 +5,36 @@ This is a directory of extensions for <https://github.com/oobabooga/text-generat
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
-## Kokoro TTS
 
-TTS with Kokoro v1
+## ad_discordbot (altoiddealer's discordbot)
 
-- 26 Different voices to choose from
+A discord bot for text and image generation, with an extreme level of customization and advanced features.
 
-<https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
+- **Chat history management** - per-channel histories; auto-load on startup; resettable per channel
+- **Advanced "Tags" System** - dynamically modify bot behavior (trigger custom responses, modify settings, swap characters/models, etc)
+- **Image generation** - A1111/Forge/ReForge (ComfyUI planned); advanced settings handling; ControlNet & ReActor integration
+- **Extensive TTS Support** - (alltalk_tts, kokoro_tts, coqui_tts, etc.); ***per-character*** voices; ***voice channel integration***
+- **Slash Commands** - switch characters, change models, advanced image/text options, etc
+- **Layered Settings Framework** - global, user-specific, character-based customizations; option to post real-time updates to dedicated channels
+- **Context Menu Superpowers** - Right-click Regenerate, Edit, or Hide messages (even in deep history!)
+- **More extra features** - Automatic model swapping, Dynamic Prompting, Starboard, etc.
 
-## Virtual Lora
+<details>
+<summary>
+A few screenshots
+</summary>
+<img width="623" alt="Dynamic Prompting" src="https://github.com/user-attachments/assets/b15b8483-ef87-46f4-be37-ec70b1c9b992" />
+<img width="416" alt="ContextCommands" src="https://github.com/user-attachments/assets/a39db2ba-b14a-494e-b848-cce528231d11" />
+<img width="511" alt="controlnet" src="https://github.com/user-attachments/assets/e829895b-c993-449c-b7e7-6b17c2d29079" />
+</details>
 
-State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
+<https://github.com/altoiddealer/ad_discordbot>
 
-If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes _essential_. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly. It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
+## telegram_bot
 
-<https://github.com/FartyPants/VirtualLora>
+Provides a cai-chat like telegram bot interface.
+
+<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
 
 ## AllTalk v2 TTS
 
@@ -45,11 +60,28 @@ Multi-engine TTS system with tight integration into Text-generation-webui.
 
 Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
 
-## telegram_bot
+## LLM_Web_search
 
-Provides a cai-chat like telegram bot interface.
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
 
-<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
+<https://github.com/mamei16/LLM_Web_search>
+
+## Kokoro TTS
+
+TTS with Kokoro v1
+
+- 26 Different voices to choose from
+
+<https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
+
+## Virtual Lora
+
+State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
+
+If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes _essential_. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly. It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
+
+<https://github.com/FartyPants/VirtualLora>
 
 ## FPreloader
 
@@ -68,13 +100,6 @@ Offline translate using the LibreTranslate local server.
 Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
 
 <https://github.com/brucepro/Memoir>
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
 
 ## SKDV's ComfyUI Image Generation
 
@@ -323,18 +348,6 @@ An extension for using [Piper](https://github.com/rhasspy/piper) text-to-speech 
 
 <https://github.com/tijo95/piper_tts>
 
-## Web_Search
-
-This extension enables' a language model to receive google search data according to the users' input.[Currently supports google search only]
-
-Simple way to do google searches through the webUI and the model responds with the results.
-
-One needs to type search then what you want to search for, example:
-
-Type `search the weather in Nairobi, Kenya today.`
-
-<https://github.com/simbake/web_search>
-
 ## edge_tts
 
 A simple implentation of Microsoft's free online TTS service using the [edge_tts](https://github.com/rany2/edge-tts) python library. Now supports RVC!
@@ -514,30 +527,6 @@ Oobabot Screenshots!
 </details>
 
 <https://github.com/chrisrude/oobabot-plugin>
-
-## ad_discordbot (altoiddealer's discordbot)
-
-A discord bot for text and image generation, with an extreme level of customization and advanced features.
-
-- **Chat history management** - per-channel histories; auto-load on startup; resettable per channel
-- **Advanced "Tags" System** - dynamically modify bot behavior (trigger custom responses, modify settings, swap characters/models, etc)
-- **Image generation** - A1111/Forge/ReForge (ComfyUI planned); advanced settings handling; ControlNet & ReActor integration
-- **Extensive TTS Support** - (alltalk_tts, kokoro_tts, coqui_tts, etc.); ***per-character*** voices; ***voice channel integration***
-- **Slash Commands** - switch characters, change models, advanced image/text options, etc
-- **Layered Settings Framework** - global, user-specific, character-based customizations; option to post real-time updates to dedicated channels
-- **Context Menu Superpowers** - Right-click Regenerate, Edit, or Hide messages (even in deep history!)
-- **More extra features** - Automatic model swapping, Dynamic Prompting, Starboard, etc.
-
-<details>
-<summary>
-A few screenshots
-</summary>
-<img width="623" alt="Dynamic Prompting" src="https://github.com/user-attachments/assets/b15b8483-ef87-46f4-be37-ec70b1c9b992" />
-<img width="416" alt="ContextCommands" src="https://github.com/user-attachments/assets/a39db2ba-b14a-494e-b848-cce528231d11" />
-<img width="511" alt="controlnet" src="https://github.com/user-attachments/assets/e829895b-c993-449c-b7e7-6b17c2d29079" />
-</details>
-
-<https://github.com/altoiddealer/ad_discordbot>
 
 ## long_term_memory
 
