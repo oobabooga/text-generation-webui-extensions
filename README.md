@@ -519,8 +519,6 @@ Oobabot Screenshots!
 
 A discord bot for text and image generation, with an extreme level of customization and advanced features.
 
-<https://github.com/altoiddealer/ad_discordbot>
-
 - **Chat history management** - per-channel histories; auto-load on startup; resettable per channel
 - **Advanced "Tags" System** - dynamically modify bot behavior (trigger custom responses, modify settings, swap characters/models, etc)
 - **Image generation** - A1111/Forge/ReForge (ComfyUI planned); advanced settings handling; ControlNet & ReActor integration
@@ -538,6 +536,8 @@ A few screenshots
 <img width="416" alt="ContextCommands" src="https://github.com/user-attachments/assets/a39db2ba-b14a-494e-b848-cce528231d11" />
 <img width="511" alt="controlnet" src="https://github.com/user-attachments/assets/e829895b-c993-449c-b7e7-6b17c2d29079" />
 </details>
+
+<https://github.com/altoiddealer/ad_discordbot>
 
 ## long_term_memory
 
