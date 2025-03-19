@@ -438,12 +438,6 @@ It also can make model's output auto translate to Japanese before it process by 
 
 <https://github.com/asadfgglie/voicevox_tts>
 
-## Long term memory with qdrant vector database
-
-A long term memory extension leveraging qdrant vector database collections dynamically created and managed per character. Uses docker for qdrant but should work with cloud as well.
-
-<https://github.com/jason-brian-anderson/long_term_memory_with_qdrant>
-
 ## EdgeGPT
 
 Extension for Text Generation Webui based on EdgeGPT by acheong08, for a quick Internet access for your bot.
@@ -532,7 +526,9 @@ Oobabot Screenshots!
 
 A sophisticated extension that creates a long term memory for bots in chat mode.
 
-<https://github.com/wawawario2/long_term_memory>
+(A fork from the original and no longer maintained <<https://github.com/wawawario2/long_term_memory>)
+
+<https://github.com/Sonic2kDBS/long_term_memory>
 
 ## webui-autonomics
 
