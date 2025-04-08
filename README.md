@@ -36,6 +36,19 @@ Provides a cai-chat like telegram bot interface.
 
 <https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
 
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
+
+## Memoir+
+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+
+<https://github.com/brucepro/Memoir>
+
 ## AllTalk v2 TTS
 
 Multi-engine TTS system with tight integration into Text-generation-webui.
@@ -59,13 +72,6 @@ Multi-engine TTS system with tight integration into Text-generation-webui.
 - **And much more**.....
 
 Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
 
 ## Kokoro TTS
 
@@ -94,12 +100,6 @@ An essential extension for extensions developers - it will reload your extension
 Offline translate using the LibreTranslate local server.
 
 <https://github.com/brucepro/LibreTranslate-extension-for-text-generation-webui>
-
-## Memoir+
-
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
-
-<https://github.com/brucepro/Memoir>
 
 ## SKDV's ComfyUI Image Generation
 
@@ -437,12 +437,6 @@ It also can make model's output auto translate to Japanese before it process by 
 [VOICEVOX/voicevox_engine](https://github.com/VOICEVOX/voicevox_engine#%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89) is needed.
 
 <https://github.com/asadfgglie/voicevox_tts>
-
-## Long term memory with qdrant vector database
-
-A long term memory extension leveraging qdrant vector database collections dynamically created and managed per character. Uses docker for qdrant but should work with cloud as well.
-
-<https://github.com/jason-brian-anderson/long_term_memory_with_qdrant>
 
 ## EdgeGPT
 
