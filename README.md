@@ -526,7 +526,9 @@ Oobabot Screenshots!
 
 A sophisticated extension that creates a long term memory for bots in chat mode.
 
-<https://github.com/wawawario2/long_term_memory>
+(A fork from the original and no longer maintained <<https://github.com/wawawario2/long_term_memory>)
+
+<https://github.com/Sonic2kDBS/long_term_memory>
 
 ## webui-autonomics
 
