@@ -81,6 +81,11 @@ TTS with Kokoro v1
 
 <https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
 
+## GPT-SoVITS_TTS
+
+Extension to perform TTS using [GPT-SoVits](https://github.com/RVC-Boss/GPT-SoVITS), it utilizes its api_v2.
+
+<https://github.com/marcos33998/GPT-SoVITS_TTS>
 ## Virtual Lora
 
 State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
