@@ -6,6 +6,20 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 
 
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
+
+## GPT-SoVITS_TTS
+
+Extension to perform TTS using [GPT-SoVits](https://github.com/RVC-Boss/GPT-SoVITS), it utilizes its api_v2.
+
+<https://github.com/marcos33998/GPT-SoVITS_TTS>
+
 ## ad_discordbot (altoiddealer's discordbot)
 
 A discord bot for text and image generation, with an extreme level of customization and advanced features.
@@ -29,25 +43,6 @@ A few screenshots
 </details>
 
 <https://github.com/altoiddealer/ad_discordbot>
-
-## telegram_bot
-
-Provides a cai-chat like telegram bot interface.
-
-<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
-
-## Memoir+
-
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
-
-<https://github.com/brucepro/Memoir>
 
 ## AllTalk v2 TTS
 
@@ -73,6 +68,18 @@ Multi-engine TTS system with tight integration into Text-generation-webui.
 
 Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
 
+## telegram_bot
+
+Provides a cai-chat like telegram bot interface.
+
+<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
+
+## Memoir+
+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+
+<https://github.com/brucepro/Memoir>
+
 ## Kokoro TTS
 
 TTS with Kokoro v1
@@ -81,11 +88,6 @@ TTS with Kokoro v1
 
 <https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
 
-## GPT-SoVITS_TTS
-
-Extension to perform TTS using [GPT-SoVits](https://github.com/RVC-Boss/GPT-SoVITS), it utilizes its api_v2.
-
-<https://github.com/marcos33998/GPT-SoVITS_TTS>
 ## Virtual Lora
 
 State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info
