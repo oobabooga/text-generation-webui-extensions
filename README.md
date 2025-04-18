@@ -7,18 +7,6 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 
 
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
-
-## GPT-SoVITS_TTS
-
-Extension to perform TTS using [GPT-SoVits](https://github.com/RVC-Boss/GPT-SoVITS), it utilizes its api_v2.
-
-<https://github.com/marcos33998/GPT-SoVITS_TTS>
 
 ## ad_discordbot (altoiddealer's discordbot)
 
@@ -43,6 +31,19 @@ A few screenshots
 </details>
 
 <https://github.com/altoiddealer/ad_discordbot>
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
+
+## GPT-SoVITS_TTS
+
+Extension to perform TTS using [GPT-SoVits](https://github.com/RVC-Boss/GPT-SoVITS), it utilizes its api_v2.
+
+<https://github.com/marcos33998/GPT-SoVITS_TTS>
 
 ## AllTalk v2 TTS
 
