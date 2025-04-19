@@ -602,3 +602,8 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
 
 <https://github.com/ChobPT/text-generation-webui-discord_bot>
 
+## context-progress-bar-text-generation-webui
+
+Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
+
+https://github.com/mamei16/context-progress-bar-text-generation-webui
