@@ -5,9 +5,6 @@ This is a directory of extensions for <https://github.com/oobabooga/text-generat
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
-
-
-
 ## ad_discordbot (altoiddealer's discordbot)
 
 A discord bot for text and image generation, with an extreme level of customization and advanced features.
@@ -39,12 +36,6 @@ when to use the command and what to search.
 
 <https://github.com/mamei16/LLM_Web_search>
 
-## GPT-SoVITS_TTS
-
-Extension to perform TTS using [GPT-SoVits](https://github.com/RVC-Boss/GPT-SoVITS), it utilizes its api_v2.
-
-<https://github.com/marcos33998/GPT-SoVITS_TTS>
-
 ## AllTalk v2 TTS
 
 Multi-engine TTS system with tight integration into Text-generation-webui.
@@ -69,17 +60,29 @@ Multi-engine TTS system with tight integration into Text-generation-webui.
 
 Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
 
+## Memoir+
+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+
+<https://github.com/brucepro/Memoir>
+
 ## telegram_bot
 
 Provides a cai-chat like telegram bot interface.
 
 <https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
 
-## Memoir+
+## context-progress-bar-text-generation-webui
 
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
 
-<https://github.com/brucepro/Memoir>
+https://github.com/mamei16/context-progress-bar-text-generation-webui
+
+## GPT-SoVITS_TTS
+
+Extension to perform TTS using [GPT-SoVits](https://github.com/RVC-Boss/GPT-SoVITS), it utilizes its api_v2.
+
+<https://github.com/marcos33998/GPT-SoVITS_TTS>
 
 ## Kokoro TTS
 
@@ -602,8 +605,3 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
 
 <https://github.com/ChobPT/text-generation-webui-discord_bot>
 
-## context-progress-bar-text-generation-webui
-
-Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
-
-https://github.com/mamei16/context-progress-bar-text-generation-webui
