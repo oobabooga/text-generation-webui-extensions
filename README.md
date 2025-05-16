@@ -5,13 +5,6 @@ This is a directory of extensions for <https://github.com/oobabooga/text-generat
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
-## Kokoro TTS
-
-TTS with Kokoro v1
-
-- 26 Different voices to choose from
-
-<https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
 
 ## ad_discordbot (altoiddealer's discordbot)
 
@@ -42,6 +35,33 @@ A few screenshots
 Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
 
 https://github.com/mamei16/context-progress-bar-text-generation-webui
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
+
+## telegram_bot
+
+Provides a cai-chat like telegram bot interface.
+
+<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
+
+## Memoir+
+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+
+<https://github.com/brucepro/Memoir>
+
+## Kokoro TTS
+
+TTS with Kokoro v1
+
+- 26 Different voices to choose from
+
+<https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
 
 ## SKDV Integrated TavernUI Characters
 
@@ -74,25 +94,6 @@ Manage your offline cards
 </details>
 
 <https://github.com/SkinnyDevi/webui_tavernai_charas>
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
-
-## telegram_bot
-
-Provides a cai-chat like telegram bot interface.
-
-<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
-
-## Memoir+
-
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
-
-<https://github.com/brucepro/Memoir>
 
 ## SKDV's ComfyUI Image Generation
 
