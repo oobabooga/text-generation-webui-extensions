@@ -5,6 +5,12 @@ This is a directory of extensions for <https://github.com/oobabooga/text-generat
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
 
 ## ad_discordbot (altoiddealer's discordbot)
 
@@ -35,13 +41,6 @@ A few screenshots
 Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
 
 https://github.com/mamei16/context-progress-bar-text-generation-webui
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
 
 ## telegram_bot
 
