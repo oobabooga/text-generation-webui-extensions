@@ -5,7 +5,6 @@ This is a directory of extensions for <https://github.com/oobabooga/text-generat
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
-
 ## ad_discordbot (altoiddealer's discordbot)
 
 A discord bot for text and image generation, with an extreme level of customization and advanced features.
@@ -41,6 +40,12 @@ https://github.com/mamei16/context-progress-bar-text-generation-webui
 Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
 
 <https://github.com/brucepro/Memoir>
+
+## Emotivoice_RVC_TTS
+
+An extension from yhyu13 with rvc custom voice
+
+<https://github.com/okazaki10/Emotivoice_RVC_TTS>
 
 ## LLM_Web_search
 
@@ -407,12 +412,6 @@ A simple extension that can make model's output text-to-speach by Emotivoice (Ch
 This model is super fast, usually cost only <0.2 sec for a ~20 words sentence on 3090 with ~1GB VRAM occupation.
 
 <https://github.com/yhyu13/Emotivoice_TTS>
-
-## Emotivoice_RVC_TTS
-
-An extension from yhyu13 with rvc custom voice
-
-<https://github.com/okazaki10/Emotivoice_RVC_TTS>
 
 ## Session_Manager
 
