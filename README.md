@@ -408,6 +408,12 @@ This model is super fast, usually cost only <0.2 sec for a ~20 words sentence on
 
 <https://github.com/yhyu13/Emotivoice_TTS>
 
+## Emotivoice_RVC_TTS
+
+An extension from yhyu13 with rvc custom voice
+
+<https://github.com/okazaki10/Emotivoice_RVC_TTS>
+
 ## Session_Manager
 
 UI for saving/loading data and parameters between sessions, periodic autosaving
