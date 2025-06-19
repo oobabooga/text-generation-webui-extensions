@@ -29,6 +29,63 @@ A few screenshots
 
 <https://github.com/altoiddealer/ad_discordbot>
 
+## Twinbook
+
+This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
+For more trips how to use it, read the README
+
+<https://github.com/FartyPants/Twinbook>
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
+
+## Playground for Writers
+
+This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
+
+- Two independent Notebooks A and B that are always present, regardless of the mode
+- Inline instruct (abilty to ask question or give task from within the text itself)
+- Select and Insert - generate text in the middle of your text
+- Perma Memory, Summarization, Paraphrasing
+- LoRA-Rama - shows LoRA checkpoints and ability to switch between them
+- LoRA scaling (experimental) - adjust LoRA impact using a sclider
+
+<https://github.com/FartyPants/Playground>
+
+## telegram_bot
+
+Provides a cai-chat like telegram bot interface.
+
+<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
+
+## AllTalk v2 TTS
+
+Multi-engine TTS system with tight integration into Text-generation-webui.
+
+- Integration with [Text-generation-webui](https://github.com/erew123/alltalk_tts/wiki/Text%E2%80%90generation%E2%80%90webui-Remote-Extension)
+- Multiple TTS engine support:
+    - Coqui XTTS TTS **(voice cloning)**
+    - F5 TTS **(voice cloning)** 
+    - Coqui VITS TTS
+    - Piper TTS
+    - Parler TTS
+    - Other TTS engines [can be coded in](https://github.com/erew123/alltalk_tts/wiki/Guide-to-Integrating-New-TTS-Engines-into-AllTalk)
+- Retrieval-based Voice Conversion [(RVC) pipeline](https://github.com/erew123/alltalk_tts/wiki/RVC-(Retrieval%E2%80%90based-Voice-Conversion))
+- Customizable settings for each TTS engine
+- Gradio web interface for easy management [Screenshots](https://github.com/erew123/alltalk_tts/discussions/237)
+- Narrator function for using different voices for characters and narration
+- Audio Transcoding to multiple formats (mp3, opus, etc.)
+- Built-in documentation throughout
+- Detailed [Github Wiki](https://github.com/erew123/alltalk_tts/wiki)
+- [Quickstart guide](https://github.com/erew123/alltalk_tts/wiki/AllTalk-V2-QuickStart-Guide)
+- **And much more**.....
+
+Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
+
 ## context-progress-bar-text-generation-webui
 
 Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
@@ -46,19 +103,6 @@ Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long ter
 An extension from yhyu13 with rvc custom voice
 
 <https://github.com/okazaki10/Emotivoice_RVC_TTS>
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
-
-## telegram_bot
-
-Provides a cai-chat like telegram bot interface.
-
-<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
 
 ## Kokoro TTS
 
@@ -166,30 +210,6 @@ Manage your offline cards
 </details>
 
 <https://github.com/SkinnyDevi/skdv_comfyui>
-
-## AllTalk v2 TTS
-
-Multi-engine TTS system with tight integration into Text-generation-webui.
-
-- Integration with [Text-generation-webui](https://github.com/erew123/alltalk_tts/wiki/Text%E2%80%90generation%E2%80%90webui-Remote-Extension)
-- Multiple TTS engine support:
-    - Coqui XTTS TTS **(voice cloning)**
-    - F5 TTS **(voice cloning)** 
-    - Coqui VITS TTS
-    - Piper TTS
-    - Parler TTS
-    - Other TTS engines [can be coded in](https://github.com/erew123/alltalk_tts/wiki/Guide-to-Integrating-New-TTS-Engines-into-AllTalk)
-- Retrieval-based Voice Conversion [(RVC) pipeline](https://github.com/erew123/alltalk_tts/wiki/RVC-(Retrieval%E2%80%90based-Voice-Conversion))
-- Customizable settings for each TTS engine
-- Gradio web interface for easy management [Screenshots](https://github.com/erew123/alltalk_tts/discussions/237)
-- Narrator function for using different voices for characters and narration
-- Audio Transcoding to multiple formats (mp3, opus, etc.)
-- Built-in documentation throughout
-- Detailed [Github Wiki](https://github.com/erew123/alltalk_tts/wiki)
-- [Quickstart guide](https://github.com/erew123/alltalk_tts/wiki/AllTalk-V2-QuickStart-Guide)
-- **And much more**.....
-
-Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
 
 ## GPT-SoVITS_TTS
 
@@ -378,32 +398,12 @@ This extension uses thebe and a jupyter server to run code on.
 
 <https://github.com/xr4dsh/CodeRunner>
 
-## Playground for Writers
-
-This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
-
-- Two independent Notebooks A and B that are always present, regardless of the mode
-- Inline instruct (abilty to ask question or give task from within the text itself)
-- Select and Insert - generate text in the middle of your text
-- Perma Memory, Summarization, Paraphrasing
-- LoRA-Rama - shows LoRA checkpoints and ability to switch between them
-- LoRA scaling (experimental) - adjust LoRA impact using a sclider
-
-<https://github.com/FartyPants/Playground>
-
 ## Ooba_Dieroller
 
 A super simple extension that reads dice notation (eg. "2d6") from input text, and rolls a random result accordingly, feeding that into the prompt.
 Features support for modifiers (eg. "2d6+4") and advantage/disadvantage.
 
 <https://github.com/TheInvisibleMage/ooba_dieroller>
-
-## Twinbook
-
-This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
-For more trips how to use it, read the README
-
-<https://github.com/FartyPants/Twinbook>
 
 ## Emotivoice_TTS
 
