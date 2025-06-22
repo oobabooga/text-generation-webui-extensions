@@ -112,6 +112,14 @@ TTS with Kokoro v1
 
 <https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
 
+## Text To TTS WebUI
+
+An extension that enables connecting to [TTS WebUI](https://github.com/rsxdalv/tts-webui) for narration. Requires TTS WebUI to
+be installed, connects locally via OpenAI style `/v1/audio/speech/` endpoint.
+Currently supports Kokoro TTS and ChatterBox TTS.
+
+<https://github.com/rsxdalv/text-to-tts-webui>
+
 ## SKDV Integrated TavernUI Characters
 
 This extension features a character searcher, downloader and manager for any TavernAI
