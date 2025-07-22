@@ -29,13 +29,6 @@ A few screenshots
 
 <https://github.com/altoiddealer/ad_discordbot>
 
-## Twinbook
-
-This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
-For more trips how to use it, read the README
-
-<https://github.com/FartyPants/Twinbook>
-
 ## LLM_Web_search
 
 Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
@@ -43,24 +36,11 @@ when to use the command and what to search.
 
 <https://github.com/mamei16/LLM_Web_search>
 
-## Playground for Writers
+## Memoir+
 
-This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
 
-- Two independent Notebooks A and B that are always present, regardless of the mode
-- Inline instruct (abilty to ask question or give task from within the text itself)
-- Select and Insert - generate text in the middle of your text
-- Perma Memory, Summarization, Paraphrasing
-- LoRA-Rama - shows LoRA checkpoints and ability to switch between them
-- LoRA scaling (experimental) - adjust LoRA impact using a sclider
-
-<https://github.com/FartyPants/Playground>
-
-## telegram_bot
-
-Provides a cai-chat like telegram bot interface.
-
-<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
+<https://github.com/brucepro/Memoir>
 
 ## AllTalk v2 TTS
 
@@ -86,17 +66,45 @@ Multi-engine TTS system with tight integration into Text-generation-webui.
 
 Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
 
+## Text To TTS WebUI
+
+An extension that enables connecting to [TTS WebUI](https://github.com/rsxdalv/tts-webui) for narration. Requires TTS WebUI to
+be installed, connects locally via OpenAI style `/v1/audio/speech/` endpoint.
+Currently supports Kokoro TTS and ChatterBox TTS.
+
+<https://github.com/rsxdalv/text-to-tts-webui>
+
 ## context-progress-bar-text-generation-webui
 
 Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
 
 https://github.com/mamei16/context-progress-bar-text-generation-webui
 
-## Memoir+
+## Twinbook
 
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
+For more trips how to use it, read the README
 
-<https://github.com/brucepro/Memoir>
+<https://github.com/FartyPants/Twinbook>
+
+## Playground for Writers
+
+This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
+
+- Two independent Notebooks A and B that are always present, regardless of the mode
+- Inline instruct (abilty to ask question or give task from within the text itself)
+- Select and Insert - generate text in the middle of your text
+- Perma Memory, Summarization, Paraphrasing
+- LoRA-Rama - shows LoRA checkpoints and ability to switch between them
+- LoRA scaling (experimental) - adjust LoRA impact using a sclider
+
+<https://github.com/FartyPants/Playground>
+
+## telegram_bot
+
+Provides a cai-chat like telegram bot interface.
+
+<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
 
 ## Emotivoice_RVC_TTS
 
@@ -111,14 +119,6 @@ TTS with Kokoro v1
 - 26 Different voices to choose from
 
 <https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
-
-## Text To TTS WebUI
-
-An extension that enables connecting to [TTS WebUI](https://github.com/rsxdalv/tts-webui) for narration. Requires TTS WebUI to
-be installed, connects locally via OpenAI style `/v1/audio/speech/` endpoint.
-Currently supports Kokoro TTS and ChatterBox TTS.
-
-<https://github.com/rsxdalv/text-to-tts-webui>
 
 ## SKDV Integrated TavernUI Characters
 
