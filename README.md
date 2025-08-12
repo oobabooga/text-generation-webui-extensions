@@ -5,153 +5,6 @@ This is a directory of extensions for <https://github.com/oobabooga/text-generat
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
-## ad_discordbot (altoiddealer's discordbot)
-
-A discord bot for text and image generation, with an extreme level of customization and advanced features.
-
-- **Chat history management** - per-channel histories; auto-load on startup; resettable per channel
-- **Advanced "Tags" System** - dynamically modify bot behavior (trigger custom responses, modify settings, swap characters/models, etc)
-- **Image generation** - A1111/Forge/ReForge (ComfyUI planned); advanced settings handling; ControlNet & ReActor integration
-- **Extensive TTS Support** - (alltalk_tts, kokoro_tts, coqui_tts, etc.); ***per-character*** voices; ***voice channel integration***
-- **Slash Commands** - switch characters, change models, advanced image/text options, etc
-- **Layered Settings Framework** - global, user-specific, character-based customizations; option to post real-time updates to dedicated channels
-- **Context Menu Superpowers** - Right-click Regenerate, Edit, or Hide messages (even in deep history!)
-- **More extra features** - Automatic model swapping, Dynamic Prompting, Starboard, etc.
-
-<details>
-<summary>
-A few screenshots
-</summary>
-<img width="623" alt="Dynamic Prompting" src="https://github.com/user-attachments/assets/b15b8483-ef87-46f4-be37-ec70b1c9b992" />
-<img width="416" alt="ContextCommands" src="https://github.com/user-attachments/assets/a39db2ba-b14a-494e-b848-cce528231d11" />
-<img width="511" alt="controlnet" src="https://github.com/user-attachments/assets/e829895b-c993-449c-b7e7-6b17c2d29079" />
-</details>
-
-<https://github.com/altoiddealer/ad_discordbot>
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
-
-## Memoir+
-
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
-
-<https://github.com/brucepro/Memoir>
-
-## AllTalk v2 TTS
-
-Multi-engine TTS system with tight integration into Text-generation-webui.
-
-- Integration with [Text-generation-webui](https://github.com/erew123/alltalk_tts/wiki/Text%E2%80%90generation%E2%80%90webui-Remote-Extension)
-- Multiple TTS engine support:
-    - Coqui XTTS TTS **(voice cloning)**
-    - F5 TTS **(voice cloning)** 
-    - Coqui VITS TTS
-    - Piper TTS
-    - Parler TTS
-    - Other TTS engines [can be coded in](https://github.com/erew123/alltalk_tts/wiki/Guide-to-Integrating-New-TTS-Engines-into-AllTalk)
-- Retrieval-based Voice Conversion [(RVC) pipeline](https://github.com/erew123/alltalk_tts/wiki/RVC-(Retrieval%E2%80%90based-Voice-Conversion))
-- Customizable settings for each TTS engine
-- Gradio web interface for easy management [Screenshots](https://github.com/erew123/alltalk_tts/discussions/237)
-- Narrator function for using different voices for characters and narration
-- Audio Transcoding to multiple formats (mp3, opus, etc.)
-- Built-in documentation throughout
-- Detailed [Github Wiki](https://github.com/erew123/alltalk_tts/wiki)
-- [Quickstart guide](https://github.com/erew123/alltalk_tts/wiki/AllTalk-V2-QuickStart-Guide)
-- **And much more**.....
-
-Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
-
-## Text To TTS WebUI
-
-An extension that enables connecting to [TTS WebUI](https://github.com/rsxdalv/tts-webui) for narration. Requires TTS WebUI to
-be installed, connects locally via OpenAI style `/v1/audio/speech/` endpoint.
-Currently supports Kokoro TTS and ChatterBox TTS.
-
-<https://github.com/rsxdalv/text-to-tts-webui>
-
-## context-progress-bar-text-generation-webui
-
-Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
-
-https://github.com/mamei16/context-progress-bar-text-generation-webui
-
-## Twinbook
-
-This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
-For more trips how to use it, read the README
-
-<https://github.com/FartyPants/Twinbook>
-
-## Playground for Writers
-
-This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
-
-- Two independent Notebooks A and B that are always present, regardless of the mode
-- Inline instruct (abilty to ask question or give task from within the text itself)
-- Select and Insert - generate text in the middle of your text
-- Perma Memory, Summarization, Paraphrasing
-- LoRA-Rama - shows LoRA checkpoints and ability to switch between them
-- LoRA scaling (experimental) - adjust LoRA impact using a sclider
-
-<https://github.com/FartyPants/Playground>
-
-## telegram_bot
-
-Provides a cai-chat like telegram bot interface.
-
-<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
-
-## Emotivoice_RVC_TTS
-
-An extension from yhyu13 with rvc custom voice
-
-<https://github.com/okazaki10/Emotivoice_RVC_TTS>
-
-## Kokoro TTS
-
-TTS with Kokoro v1
-
-- 26 Different voices to choose from
-
-<https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
-
-## SKDV Integrated TavernUI Characters
-
-This extension features a character searcher, downloader and manager for any TavernAI
-cards.
-
-### General features
-
-- Main page recent and random cards, as well as random categories upon main page launch
-- Card filtering with text search, NSFW blocking\* and category filtering
-- Card downloading
-- Offline card manager
-- Search and delete downloaded cards
-
-\*_Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW._
-
-<details>
- <summary>Click to preview the interface</summary>
- <br/>
-
-Main extension page with recent and random cards
-![MainSection](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-online.png)
-Search online TavernAI cards
-![CardSearcher](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-searcher.png)
-Advanced search filtering with card categories
-![SearcherCategories](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/searcher-categories.png)
-Manage your offline cards
-![offlineCardManager](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/offline-cards.png)
-
-</details>
-
-<https://github.com/SkinnyDevi/webui_tavernai_charas>
-
 ## SKDV's ComfyUI Image Generation
 
 <p align="center">
@@ -219,11 +72,81 @@ Manage your offline cards
 
 <https://github.com/SkinnyDevi/skdv_comfyui>
 
-## GPT-SoVITS_TTS
+## ad_discordbot (altoiddealer's discordbot)
 
-Extension to perform TTS using [GPT-SoVits](https://github.com/RVC-Boss/GPT-SoVITS), it utilizes its api_v2.
+A discord bot for text and image generation, with an extreme level of customization and advanced features.
 
-<https://github.com/marcos33998/GPT-SoVITS_TTS>
+- **Chat history management** - per-channel histories; auto-load on startup; resettable per channel
+- **Advanced "Tags" System** - dynamically modify bot behavior (trigger custom responses, modify settings, swap characters/models, etc)
+- **Image generation** - A1111/Forge/ReForge (ComfyUI planned); advanced settings handling; ControlNet & ReActor integration
+- **Extensive TTS Support** - (alltalk_tts, kokoro_tts, coqui_tts, etc.); ***per-character*** voices; ***voice channel integration***
+- **Slash Commands** - switch characters, change models, advanced image/text options, etc
+- **Layered Settings Framework** - global, user-specific, character-based customizations; option to post real-time updates to dedicated channels
+- **Context Menu Superpowers** - Right-click Regenerate, Edit, or Hide messages (even in deep history!)
+- **More extra features** - Automatic model swapping, Dynamic Prompting, Starboard, etc.
+
+<details>
+<summary>
+A few screenshots
+</summary>
+<img width="623" alt="Dynamic Prompting" src="https://github.com/user-attachments/assets/b15b8483-ef87-46f4-be37-ec70b1c9b992" />
+<img width="416" alt="ContextCommands" src="https://github.com/user-attachments/assets/a39db2ba-b14a-494e-b848-cce528231d11" />
+<img width="511" alt="controlnet" src="https://github.com/user-attachments/assets/e829895b-c993-449c-b7e7-6b17c2d29079" />
+</details>
+
+<https://github.com/altoiddealer/ad_discordbot>
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
+
+## SKDV Integrated TavernUI Characters
+
+This extension features a character searcher, downloader and manager for any TavernAI
+cards.
+
+### General features
+
+- Main page recent and random cards, as well as random categories upon main page launch
+- Card filtering with text search, NSFW blocking\* and category filtering
+- Card downloading
+- Offline card manager
+- Search and delete downloaded cards
+
+\*_Disclaimer: As TavernAI is a community supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not being NSFW._
+
+<details>
+ <summary>Click to preview the interface</summary>
+ <br/>
+
+Main extension page with recent and random cards
+![MainSection](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-online.png)
+Search online TavernAI cards
+![CardSearcher](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/main-searcher.png)
+Advanced search filtering with card categories
+![SearcherCategories](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/searcher-categories.png)
+Manage your offline cards
+![offlineCardManager](https://raw.githubusercontent.com/SkinnyDevi/webui_tavernai_charas/master/docs/offline-cards.png)
+
+</details>
+
+<https://github.com/SkinnyDevi/webui_tavernai_charas>
+
+## Playground for Writers
+
+This extension provides an independent advanced notebook that will be always present from the top tab. It has many features not found in the notebook:
+
+- Two independent Notebooks A and B that are always present, regardless of the mode
+- Inline instruct (abilty to ask question or give task from within the text itself)
+- Select and Insert - generate text in the middle of your text
+- Perma Memory, Summarization, Paraphrasing
+- LoRA-Rama - shows LoRA checkpoints and ability to switch between them
+- LoRA scaling (experimental) - adjust LoRA impact using a sclider
+
+<https://github.com/FartyPants/Playground>
 
 ## Virtual Lora
 
@@ -232,6 +155,83 @@ State of the Art Lora Management - Custom Collections, Checkpoints, Notes & Deta
 If you're anything like me (and if you've made 500 LORAs, chances are you are), a decent management system becomes _essential_. This allows you to set up multiple LORA 'collections', each containing one or more virtually named subfolders into which you can sort all those adapters you've been building for weeks; and add any notes about the LORAs or checkpoints. You can of course apply the LORAs or any of the checkpoints directly. It's a finer grained enhancement than Playground's Lora-rama, but it will be concentrating solely on LORAs and nothing else.
 
 <https://github.com/FartyPants/VirtualLora>
+
+## Twinbook
+
+This extension combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined for only Generation/Continue but with a little twist. You are in full control of both sides - the instruction side (left) and the result side (right) allowing you to steer LLM in the middle of text (or even sentence) by simply changing the instructions on left and clicking Continue on right.
+For more trips how to use it, read the README
+
+<https://github.com/FartyPants/Twinbook>
+
+## context-progress-bar-text-generation-webui
+
+Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
+
+https://github.com/mamei16/context-progress-bar-text-generation-webui
+
+## Memoir+
+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+
+<https://github.com/brucepro/Memoir>
+
+## AllTalk v2 TTS
+
+Multi-engine TTS system with tight integration into Text-generation-webui.
+
+- Integration with [Text-generation-webui](https://github.com/erew123/alltalk_tts/wiki/Text%E2%80%90generation%E2%80%90webui-Remote-Extension)
+- Multiple TTS engine support:
+    - Coqui XTTS TTS **(voice cloning)**
+    - F5 TTS **(voice cloning)** 
+    - Coqui VITS TTS
+    - Piper TTS
+    - Parler TTS
+    - Other TTS engines [can be coded in](https://github.com/erew123/alltalk_tts/wiki/Guide-to-Integrating-New-TTS-Engines-into-AllTalk)
+- Retrieval-based Voice Conversion [(RVC) pipeline](https://github.com/erew123/alltalk_tts/wiki/RVC-(Retrieval%E2%80%90based-Voice-Conversion))
+- Customizable settings for each TTS engine
+- Gradio web interface for easy management [Screenshots](https://github.com/erew123/alltalk_tts/discussions/237)
+- Narrator function for using different voices for characters and narration
+- Audio Transcoding to multiple formats (mp3, opus, etc.)
+- Built-in documentation throughout
+- Detailed [Github Wiki](https://github.com/erew123/alltalk_tts/wiki)
+- [Quickstart guide](https://github.com/erew123/alltalk_tts/wiki/AllTalk-V2-QuickStart-Guide)
+- **And much more**.....
+
+Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
+
+## Text To TTS WebUI
+
+An extension that enables connecting to [TTS WebUI](https://github.com/rsxdalv/tts-webui) for narration. Requires TTS WebUI to
+be installed, connects locally via OpenAI style `/v1/audio/speech/` endpoint.
+Currently supports Kokoro TTS and ChatterBox TTS.
+
+<https://github.com/rsxdalv/text-to-tts-webui>
+
+## telegram_bot
+
+Provides a cai-chat like telegram bot interface.
+
+<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
+
+## Emotivoice_RVC_TTS
+
+An extension from yhyu13 with rvc custom voice
+
+<https://github.com/okazaki10/Emotivoice_RVC_TTS>
+
+## Kokoro TTS
+
+TTS with Kokoro v1
+
+- 26 Different voices to choose from
+
+<https://github.com/h43lb1t0/KokoroTtsTexGernerationWebui>
+
+## GPT-SoVITS_TTS
+
+Extension to perform TTS using [GPT-SoVits](https://github.com/RVC-Boss/GPT-SoVITS), it utilizes its api_v2.
+
+<https://github.com/marcos33998/GPT-SoVITS_TTS>
 
 ## FPreloader
 
