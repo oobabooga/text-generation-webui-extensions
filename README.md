@@ -5,6 +5,44 @@ This is a directory of extensions for <https://github.com/oobabooga/text-generat
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
 
+
+## ad_discordbot (altoiddealer's discordbot)
+
+A discord bot for text and image generation, with an extreme level of customization and advanced features.
+
+- **Chat history management** - per-channel histories; auto-load on startup; resettable per channel
+- **Advanced "Tags" System** - dynamically modify bot behavior (trigger custom responses, modify settings, swap characters/models, etc)
+- **Image generation** - A1111/Forge/ReForge (ComfyUI planned); advanced settings handling; ControlNet & ReActor integration
+- **Extensive TTS Support** - (alltalk_tts, kokoro_tts, coqui_tts, etc.); ***per-character*** voices; ***voice channel integration***
+- **Slash Commands** - switch characters, change models, advanced image/text options, etc
+- **Layered Settings Framework** - global, user-specific, character-based customizations; option to post real-time updates to dedicated channels
+- **Context Menu Superpowers** - Right-click Regenerate, Edit, or Hide messages (even in deep history!)
+- **More extra features** - Automatic model swapping, Dynamic Prompting, Starboard, etc.
+
+<details>
+<summary>
+A few screenshots
+</summary>
+<img width="623" alt="Dynamic Prompting" src="https://github.com/user-attachments/assets/b15b8483-ef87-46f4-be37-ec70b1c9b992" />
+<img width="416" alt="ContextCommands" src="https://github.com/user-attachments/assets/a39db2ba-b14a-494e-b848-cce528231d11" />
+<img width="511" alt="controlnet" src="https://github.com/user-attachments/assets/e829895b-c993-449c-b7e7-6b17c2d29079" />
+</details>
+
+<https://github.com/altoiddealer/ad_discordbot>
+
+## Memoir+
+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+
+<https://github.com/brucepro/Memoir>
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
+
 ## SKDV's ComfyUI Image Generation
 
 <p align="center">
@@ -72,37 +110,6 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 <https://github.com/SkinnyDevi/skdv_comfyui>
 
-## ad_discordbot (altoiddealer's discordbot)
-
-A discord bot for text and image generation, with an extreme level of customization and advanced features.
-
-- **Chat history management** - per-channel histories; auto-load on startup; resettable per channel
-- **Advanced "Tags" System** - dynamically modify bot behavior (trigger custom responses, modify settings, swap characters/models, etc)
-- **Image generation** - A1111/Forge/ReForge (ComfyUI planned); advanced settings handling; ControlNet & ReActor integration
-- **Extensive TTS Support** - (alltalk_tts, kokoro_tts, coqui_tts, etc.); ***per-character*** voices; ***voice channel integration***
-- **Slash Commands** - switch characters, change models, advanced image/text options, etc
-- **Layered Settings Framework** - global, user-specific, character-based customizations; option to post real-time updates to dedicated channels
-- **Context Menu Superpowers** - Right-click Regenerate, Edit, or Hide messages (even in deep history!)
-- **More extra features** - Automatic model swapping, Dynamic Prompting, Starboard, etc.
-
-<details>
-<summary>
-A few screenshots
-</summary>
-<img width="623" alt="Dynamic Prompting" src="https://github.com/user-attachments/assets/b15b8483-ef87-46f4-be37-ec70b1c9b992" />
-<img width="416" alt="ContextCommands" src="https://github.com/user-attachments/assets/a39db2ba-b14a-494e-b848-cce528231d11" />
-<img width="511" alt="controlnet" src="https://github.com/user-attachments/assets/e829895b-c993-449c-b7e7-6b17c2d29079" />
-</details>
-
-<https://github.com/altoiddealer/ad_discordbot>
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
-
 ## SKDV Integrated TavernUI Characters
 
 This extension features a character searcher, downloader and manager for any TavernAI
@@ -168,12 +175,6 @@ For more trips how to use it, read the README
 Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
 
 https://github.com/mamei16/context-progress-bar-text-generation-webui
-
-## Memoir+
-
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
-
-<https://github.com/brucepro/Memoir>
 
 ## AllTalk v2 TTS
 
