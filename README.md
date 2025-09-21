@@ -6,6 +6,20 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 
 
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
+
+## Memoir+
+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+
+<https://github.com/brucepro/Memoir>
+
 ## ad_discordbot (altoiddealer's discordbot)
 
 A discord bot for text and image generation, with an extreme level of customization and advanced features.
@@ -30,18 +44,11 @@ A few screenshots
 
 <https://github.com/altoiddealer/ad_discordbot>
 
-## Memoir+
+## Diffusion_TTS
 
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
 
-<https://github.com/brucepro/Memoir>
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
+<https://github.com/SicariusSicariiStuff/Diffusion_TTS>
 
 ## SKDV's ComfyUI Image Generation
 
@@ -283,12 +290,6 @@ A web search extension for Oobabooga's text-generation-webui (now with nouget OC
 This extension allows you and your LLM to explore and perform research on the internet together. It uses google chrome as the web browser, and optionally, can use nouget's OCR models which can read complex mathematical and scientific equations/symbols via optical character recognition.
 
 <https://github.com/RandomInternetPreson/LucidWebSearch>
-
-## Diffusion_TTS
-
-Realistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
-
-<https://github.com/SicariusSicariiStuff/Diffusion_TTS>
 
 ## code_syntax_highlight
 
