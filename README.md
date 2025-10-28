@@ -6,7 +6,6 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 
 
-
 ## LLM_Web_search
 
 Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
@@ -19,6 +18,12 @@ when to use the command and what to search.
 Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
 
 <https://github.com/brucepro/Memoir>
+
+## telegram_bot
+
+Provides a cai-chat like telegram bot interface.
+
+<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
 
 ## ad_discordbot (altoiddealer's discordbot)
 
@@ -43,6 +48,22 @@ A few screenshots
 </details>
 
 <https://github.com/altoiddealer/ad_discordbot>
+
+## context-progress-bar-text-generation-webui
+
+Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
+
+https://github.com/mamei16/context-progress-bar-text-generation-webui
+
+## AutoSave
+
+An auto save extension for text generated with the oobabooga WebUI.
+
+If you've ever lost a great response or forgot to copy and save your perfect prompt, AutoSave is for you!
+
+100% local saving
+
+<https://github.com/ill13/AutoSave/>
 
 ## Diffusion_TTS
 
@@ -177,12 +198,6 @@ For more trips how to use it, read the README
 
 <https://github.com/FartyPants/Twinbook>
 
-## context-progress-bar-text-generation-webui
-
-Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
-
-https://github.com/mamei16/context-progress-bar-text-generation-webui
-
 ## AllTalk v2 TTS
 
 Multi-engine TTS system with tight integration into Text-generation-webui.
@@ -214,12 +229,6 @@ be installed, connects locally via OpenAI style `/v1/audio/speech/` endpoint.
 Currently supports Kokoro TTS and ChatterBox TTS.
 
 <https://github.com/rsxdalv/text-to-tts-webui>
-
-## telegram_bot
-
-Provides a cai-chat like telegram bot interface.
-
-<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
 
 ## Emotivoice_RVC_TTS
 
@@ -492,16 +501,6 @@ Adds options to keep tabs on page (sticky tabs) and to move extensions into a hi
 Restart interface to apply setting changes. Save settings by editing params in scipt.py or using settings.json
 
 <https://github.com/xanthousm/text-gen-webui-ui_tweaks>
-
-## AutoSave
-
-An auto save extension for text generated with the oobabooga WebUI.
-
-If you've ever lost a great response or forgot to copy and save your perfect prompt, AutoSave is for you!
-
-100% local saving
-
-<https://github.com/ill13/AutoSave/>
 
 ## webui_langchain_agent
 
