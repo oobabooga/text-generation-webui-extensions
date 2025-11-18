@@ -13,18 +13,6 @@ when to use the command and what to search.
 
 <https://github.com/mamei16/LLM_Web_search>
 
-## Memoir+
-
-Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
-
-<https://github.com/brucepro/Memoir>
-
-## telegram_bot
-
-Provides a cai-chat like telegram bot interface.
-
-<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
-
 ## ad_discordbot (altoiddealer's discordbot)
 
 A discord bot for text and image generation, with an extreme level of customization and advanced features.
@@ -48,6 +36,18 @@ A few screenshots
 </details>
 
 <https://github.com/altoiddealer/ad_discordbot>
+
+## telegram_bot
+
+Provides a cai-chat like telegram bot interface.
+
+<https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
+
+## Memoir+
+
+Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long term memories, emotional polarity tracking. Later versions will include function calling. This plugin gives your personified agent the ability to have a past and present through the injection of memories created by the Ego persona.
+
+<https://github.com/brucepro/Memoir>
 
 ## context-progress-bar-text-generation-webui
 
