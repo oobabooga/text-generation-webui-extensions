@@ -6,7 +6,6 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 
 
-
 ## ad_discordbot (altoiddealer's discordbot)
 
 A discord bot for text and image generation, with an extreme level of customization and advanced features.
@@ -37,12 +36,11 @@ Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long ter
 
 <https://github.com/brucepro/Memoir>
 
-## LLM_Web_search
+## context-progress-bar-text-generation-webui
 
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
+Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled.
 
-<https://github.com/mamei16/LLM_Web_search>
+https://github.com/mamei16/context-progress-bar-text-generation-webui
 
 ## telegram_bot
 
@@ -50,11 +48,12 @@ Provides a cai-chat like telegram bot interface.
 
 <https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
 
-## context-progress-bar-text-generation-webui
+## LLM_Web_search
 
-Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled. 
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
 
-https://github.com/mamei16/context-progress-bar-text-generation-webui
+<https://github.com/mamei16/LLM_Web_search>
 
 ## AutoSave
 
@@ -206,7 +205,7 @@ Multi-engine TTS system with tight integration into Text-generation-webui.
 - Integration with [Text-generation-webui](https://github.com/erew123/alltalk_tts/wiki/Text%E2%80%90generation%E2%80%90webui-Remote-Extension)
 - Multiple TTS engine support:
     - Coqui XTTS TTS **(voice cloning)**
-    - F5 TTS **(voice cloning)** 
+    - F5 TTS **(voice cloning)**
     - Coqui VITS TTS
     - Piper TTS
     - Parler TTS
@@ -312,7 +311,7 @@ Supports all interface modes and both light and dark themes.
 <details>
   <summary>Click here to show preview images</summary>
   <br>
-  
+
   | <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-preview-1.png" width="100%" title="Code Syntax Highlight extension"> |
   | :----------------------------------------: |
   | <img alt="Code Syntax Highlight extension for oobabooga text-generation-webui" src="https://www.davg25.com/file/github-media/text-generation-webui-code_syntax_highlight/extension-preview-2.png" width="100%" title="Code Syntax Highlight extension"> |
@@ -329,7 +328,7 @@ Web RAG -- Retrieval-Augmented Generation from Web content. Retrieves web data u
 
 ## stable_diffusion
 
-Integrates image generation capabilities using Stable Diffusion.  
+Integrates image generation capabilities using Stable Diffusion.
 Requires a separate stable-diffusion-webui (AUTOMATIC1111) instance with enabled API.
 
 **Features**
@@ -388,7 +387,7 @@ Model Ducking allows the currently loaded model to automatically unload itself i
 
 ## More translators
 
-This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so on.  
+This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so on.
 Need to run `pip install --upgrade translators` first.
 
 <https://github.com/Touch-Night/more_translators>
@@ -614,7 +613,7 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
 <details>
   <summary>Click to show preview</summary>
   <br>
-  
+
   ![preview-2](https://user-images.githubusercontent.com/45816945/234896222-532ef597-3e26-48cc-8af2-7df33d471e1b.png)![image](https://user-images.githubusercontent.com/45816945/234899114-09381d3d-3deb-4f1f-8328-2567755cfe40.png)
 
 </details>
