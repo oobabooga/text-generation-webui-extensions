@@ -36,6 +36,15 @@ Memoir+ a persona extension for Text Gen Web UI. Memoir+ adds short and long ter
 
 <https://github.com/brucepro/Memoir>
 
+## WebSearch API (MistByte)
+
+Local, explicit web search integration for Text Generation WebUI.
+
+Designed to avoid “I browsed the web” hallucinations by requiring an explicit trigger.
+Non-agentic: one search per user request, predictable and local-first.
+
+<https://github.com/mistbyte-ai/websearch-mistbyte>
+
 ## context-progress-bar-text-generation-webui
 
 Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled.
