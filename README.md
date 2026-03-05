@@ -45,6 +45,13 @@ Non-agentic: one search per user request, predictable and local-first.
 
 <https://github.com/mistbyte-ai/websearch-mistbyte>
 
+## Time Injector (MistByte)
+
+Injects the current date/time into every prompt (UTC + local time + offset + time of day).
+Fixes common local LLM issues like "it's still 2024" and wrong today/yesterday context.
+
+<https://github.com/mistbyte-ai/time-injector-mistbyte>
+
 ## context-progress-bar-text-generation-webui
 
 Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled.
