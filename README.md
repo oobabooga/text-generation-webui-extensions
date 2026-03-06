@@ -6,6 +6,26 @@ If you create your own extension, you are welcome to submit it to this list in a
 
 
 
+## context-progress-bar-text-generation-webui
+
+Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled.
+
+https://github.com/mamei16/context-progress-bar-text-generation-webui
+
+## LLM_Web_search
+
+Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
+when to use the command and what to search.
+
+<https://github.com/mamei16/LLM_Web_search>
+
+## Time Injector (MistByte)
+
+Injects the current date/time into every prompt (UTC + local time + offset + time of day).
+Fixes common local LLM issues like "it's still 2024" and wrong today/yesterday context.
+
+<https://github.com/mistbyte-ai/time-injector-mistbyte>
+
 ## ad_discordbot (altoiddealer's discordbot)
 
 A discord bot for text and image generation, with an extreme level of customization and advanced features.
@@ -45,31 +65,35 @@ Non-agentic: one search per user request, predictable and local-first.
 
 <https://github.com/mistbyte-ai/websearch-mistbyte>
 
-## Time Injector (MistByte)
+## AllTalk v2 TTS
 
-Injects the current date/time into every prompt (UTC + local time + offset + time of day).
-Fixes common local LLM issues like "it's still 2024" and wrong today/yesterday context.
+Multi-engine TTS system with tight integration into Text-generation-webui.
 
-<https://github.com/mistbyte-ai/time-injector-mistbyte>
+- Integration with [Text-generation-webui](https://github.com/erew123/alltalk_tts/wiki/Text%E2%80%90generation%E2%80%90webui-Remote-Extension)
+- Multiple TTS engine support:
+    - Coqui XTTS TTS **(voice cloning)**
+    - F5 TTS **(voice cloning)**
+    - Coqui VITS TTS
+    - Piper TTS
+    - Parler TTS
+    - Other TTS engines [can be coded in](https://github.com/erew123/alltalk_tts/wiki/Guide-to-Integrating-New-TTS-Engines-into-AllTalk)
+- Retrieval-based Voice Conversion [(RVC) pipeline](https://github.com/erew123/alltalk_tts/wiki/RVC-(Retrieval%E2%80%90based-Voice-Conversion))
+- Customizable settings for each TTS engine
+- Gradio web interface for easy management [Screenshots](https://github.com/erew123/alltalk_tts/discussions/237)
+- Narrator function for using different voices for characters and narration
+- Audio Transcoding to multiple formats (mp3, opus, etc.)
+- Built-in documentation throughout
+- Detailed [Github Wiki](https://github.com/erew123/alltalk_tts/wiki)
+- [Quickstart guide](https://github.com/erew123/alltalk_tts/wiki/AllTalk-V2-QuickStart-Guide)
+- **And much more**.....
 
-## context-progress-bar-text-generation-webui
-
-Adds a real-time progress bar below the chat input field that shows how much of the available context window is filled.
-
-https://github.com/mamei16/context-progress-bar-text-generation-webui
+Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
 
 ## telegram_bot
 
 Provides a cai-chat like telegram bot interface.
 
 <https://github.com/innightwolfsleep/text-generation-webui-telegram_bot>
-
-## LLM_Web_search
-
-Give your local LLM the ability to search the web by outputting a user-defined command. The model decides
-when to use the command and what to search.
-
-<https://github.com/mamei16/LLM_Web_search>
 
 ## AutoSave
 
@@ -213,30 +237,6 @@ This extension combines chat and notebook in a very clever way. It's based on my
 For more trips how to use it, read the README
 
 <https://github.com/FartyPants/Twinbook>
-
-## AllTalk v2 TTS
-
-Multi-engine TTS system with tight integration into Text-generation-webui.
-
-- Integration with [Text-generation-webui](https://github.com/erew123/alltalk_tts/wiki/Text%E2%80%90generation%E2%80%90webui-Remote-Extension)
-- Multiple TTS engine support:
-    - Coqui XTTS TTS **(voice cloning)**
-    - F5 TTS **(voice cloning)**
-    - Coqui VITS TTS
-    - Piper TTS
-    - Parler TTS
-    - Other TTS engines [can be coded in](https://github.com/erew123/alltalk_tts/wiki/Guide-to-Integrating-New-TTS-Engines-into-AllTalk)
-- Retrieval-based Voice Conversion [(RVC) pipeline](https://github.com/erew123/alltalk_tts/wiki/RVC-(Retrieval%E2%80%90based-Voice-Conversion))
-- Customizable settings for each TTS engine
-- Gradio web interface for easy management [Screenshots](https://github.com/erew123/alltalk_tts/discussions/237)
-- Narrator function for using different voices for characters and narration
-- Audio Transcoding to multiple formats (mp3, opus, etc.)
-- Built-in documentation throughout
-- Detailed [Github Wiki](https://github.com/erew123/alltalk_tts/wiki)
-- [Quickstart guide](https://github.com/erew123/alltalk_tts/wiki/AllTalk-V2-QuickStart-Guide)
-- **And much more**.....
-
-Link to [AllTalk V2 GitHub](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file#alltalk-tts-v2)
 
 ## Text To TTS WebUI
 
@@ -590,13 +590,6 @@ An extension that goes with [guidance](https://github.com/microsoft/guidance/pul
 for schemaful data
 
 <https://github.com/danikhan632/guidance_api>
-
-## dynamic_context
-
-A simple extension that replaces {{time}} and {{date}} on the current character's context with the current time and date respectively.
-Also adds time context (and optionally date) to the last prompt to add extra context to the AI response.
-
-<https://github.com/elPatrixF/dynamic_context>
 
 ## api_advanced
 
