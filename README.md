@@ -629,3 +629,10 @@ Simply create a Webhook in Discord following this tutorial and paste the webhook
 
 <https://github.com/ChobPT/text-generation-webui-discord_bot>
 
+## Lorebook Extension for Oobabooga
+
+A simple Loorebook extension for Oobabooga's text generation web-ui. It adds the capability to use lorebooks in instruct mode, chat and text completion mode.
+
+Also has support for importing and exporting silly tavern lorebooks already made.
+
+<https://github.com/Quiet-Joker/Lorebook-Extension-for-Oobabooga>
