@@ -636,3 +636,14 @@ A simple Loorebook extension for Oobabooga's text generation web-ui. It adds the
 Also has support for importing and exporting silly tavern lorebooks already made.
 
 <https://github.com/Quiet-Joker/Lorebook-Extension-for-Oobabooga>
+
+## TurboQuant KV Cache Compression
+
+Implements Google Research's **TurboQuant** algorithm (ICLR 2026) for extreme KV cache compression in text-generation-webui. Reduces KV cache VRAM usage by up to 4x using **PolarQuant** (polar coordinate quantization) and **QJL** (Quantized Johnson-Lindenstrauss, 1-bit residual correction), enabling longer context windows on the same hardware.
+
+- **llama.cpp (GGUF):** One-click button to apply native `q4_0` KV cache compression and reload the model automatically
+- **Transformers / ExLlamav3_HF:** PyTorch forward hooks on attention layers for real-time KV quantization
+- Configurable bit-width (2-8 bits) and group size
+- Tested: 36% VRAM reduction on KV cache, 2.3x larger context window on RTX 2080 Ti with Qwen3.5-9B
+
+<https://github.com/LHRICO78/text-generation-webui-turboquant>
