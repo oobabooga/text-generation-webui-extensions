@@ -4,6 +4,14 @@ This is a directory of extensions for <https://github.com/oobabooga/text-generat
 
 If you create your own extension, you are welcome to submit it to this list in a PR.
 
+## FunASR STT
+
+Enter chat messages with a microphone using the local SenseVoiceSmall model.
+Supports Mandarin, Cantonese, English, Japanese, and Korean, with automatic
+CPU/CUDA selection and optional auto-submit.
+
+<https://github.com/LauraGPT/funasr_stt>
+
 
 
 ## context-progress-bar-text-generation-webui
